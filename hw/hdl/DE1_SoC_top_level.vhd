@@ -101,10 +101,11 @@ entity DE1_SoC_top_level is
      -- VGA_VS           : out   std_logic;
 
         -- GPIO_0
-     -- GPIO_0           : inout std_logic_vector(35 downto 0);
+      GPIO_0           : inout std_logic_vector(35 downto 0);
 
         -- GPIO_1
-     -- GPIO_1           : inout std_logic_vector(35 downto 0);
+      GPIO_1           : inout std_logic_vector(35 downto 0);
+
 
         -- HPS
         HPS_CONV_USB_N   : inout std_logic;
@@ -163,6 +164,16 @@ entity DE1_SoC_top_level is
 end entity DE1_SoC_top_level;
 
 architecture rtl of DE1_SoC_top_level is
+	signal     GPIO_1_D5M_D       :  std_logic_vector(11 downto 0);
+   signal     GPIO_1_D5M_FVAL    :  std_logic;
+   signal     GPIO_1_D5M_LVAL    :  std_logic;
+   signal     GPIO_1_D5M_PIXCLK  :  std_logic;
+   signal     GPIO_1_D5M_RESET_N :  std_logic;
+   signal     GPIO_1_D5M_SCLK    :  std_logic;
+   signal     GPIO_1_D5M_SDATA   :  std_logic;
+   signal     GPIO_1_D5M_STROBE  :  std_logic;
+   signal     GPIO_1_D5M_TRIGGER :  std_logic;
+   signal     GPIO_1_D5M_XCLKIN  :  std_logic;
     component soc_system is
         port(
             clk_clk                                  : in    std_logic                     := 'X';
@@ -249,7 +260,16 @@ architecture rtl of DE1_SoC_top_level is
             sdram_controller_0_wire_ras_n            : out   std_logic;
             sdram_controller_0_wire_we_n             : out   std_logic;
             nios_leds_external_connection_export     : out   std_logic_vector(3	downto 0);
-            hps_fpga_leds_external_connection_export : out   std_logic_vector(3 downto 0)
+            hps_fpga_leds_external_connection_export : out   std_logic_vector(3 downto 0);
+				camera_component_0_conduit_end_buffer_saved   : out   std_logic_vector(1 downto 0);                     -- buffer_saved
+				camera_component_0_clock_sink_1_clk           : in    std_logic:= 'X';              -- clk
+				camera_component_0_conduit_end_data_camera    : in    std_logic_vector(11 downto 0) := (others => 'X'); -- data_camera
+				camera_component_0_conduit_end_debug          : out   std_logic_vector(31 downto 0);                    -- debug
+				camera_component_0_conduit_end_display_buffer : in    std_logic_vector(1 downto 0)  := (others => 'X'); -- display_buffer
+				camera_component_0_conduit_end_fval           : in    std_logic                     := 'X';             -- fval
+				camera_component_0_conduit_end_lval           : in    std_logic                     := 'X';             -- lval
+				i2c_0_conduit_end_scl                         : inout std_logic                     := 'X';             -- scl
+				i2c_0_conduit_end_sda                         : inout std_logic                     := 'X'              -- sda
         );
     end component soc_system;
 
@@ -341,8 +361,39 @@ begin
         sdram_controller_0_wire_ras_n            => DRAM_RAS_N,
         sdram_controller_0_wire_we_n             => DRAM_WE_N,
         nios_leds_external_connection_export     => LEDR(3 downto 0),
-        hps_fpga_leds_external_connection_export => LEDR(7 downto 4)
+        hps_fpga_leds_external_connection_export => LEDR(7 downto 4),
+		  camera_component_0_conduit_end_buffer_saved   => open,   --    camera_component_0_conduit_end.buffer_saved
+		  camera_component_0_clock_sink_1_clk     => CLOCK_50,     --                                  .clk_camera
+		  camera_component_0_conduit_end_data_camera    => GPIO_1_D5M_D,    --                                  .data_camera
+	     camera_component_0_conduit_end_debug          => open,          --                                  .debug
+		  camera_component_0_conduit_end_display_buffer => open, --                                  .display_buffer
+	     camera_component_0_conduit_end_fval           => GPIO_1_D5M_FVAL,           --                                  .fval
+	     camera_component_0_conduit_end_lval           => GPIO_1_D5M_LVAL,            --                                  .lval
+		  i2c_0_conduit_end_scl                         => GPIO_1_D5M_SCLK,                         --                 i2c_0_conduit_end.scl
+		  i2c_0_conduit_end_sda                         => GPIO_1_D5M_SDATA                          --                                  .sda
 		  
     );
+	 GPIO_1(0)<=GPIO_1_D5M_PIXCLK;
+	 GPIO_1(1)<=GPIO_1_D5M_D(11);
+	 GPIO_1(3)<=GPIO_1_D5M_D(10);
+	 GPIO_1(4)<=GPIO_1_D5M_D(9);
+	 GPIO_1(5)<=GPIO_1_D5M_D(8);
+	 GPIO_1(6)<=GPIO_1_D5M_D(7);
+	 GPIO_1(7)<=GPIO_1_D5M_D(6);
+	 GPIO_1(8)<=GPIO_1_D5M_D(5);
+	 GPIO_1(9)<=GPIO_1_D5M_D(4);
+	 GPIO_1(10)<=GPIO_1_D5M_D(3);
+	 GPIO_1(11)<=GPIO_1_D5M_D(2);
+	 GPIO_1(12)<=GPIO_1_D5M_D(1);
+	 GPIO_1(13)<=GPIO_1_D5M_D(0);
+	 GPIO_1(16)<=CLOCK_50;
+	 GPIO_1(17)<=GPIO_1_D5M_RESET_N;
+	 GPIO_1(19)<=GPIO_1_D5M_TRIGGER;
+	 GPIO_1(20)<=GPIO_1_D5M_STROBE;
+	 GPIO_1(21)<=GPIO_1_D5M_LVAL;
+	 GPIO_1(22)<=GPIO_1_D5M_FVAL;
+	 GPIO_1(23)<=GPIO_1_D5M_SDATA;
+	 GPIO_1(24)<=GPIO_1_D5M_SCLK;
+
 	 LEDR(9 downto 8)<=SW(9 downto 8);
 end;

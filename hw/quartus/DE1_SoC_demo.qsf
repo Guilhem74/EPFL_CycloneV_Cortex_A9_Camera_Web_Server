@@ -1401,8 +1401,6 @@ set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_34
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[35]
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_35
 
-set_global_assignment -name QSYS_FILE soc_system.qsys
-set_global_assignment -name VHDL_FILE ../hdl/DE1_SoC_top_level.vhd
 set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
@@ -1614,4 +1612,15 @@ set_global_assignment -name USE_DLL_FREQUENCY_FOR_DQS_DELAY_CHAIN ON
 set_global_assignment -name UNIPHY_SEQUENCER_DQS_CONFIG_ENABLE ON
 set_global_assignment -name OPTIMIZE_MULTI_CORNER_TIMING ON
 set_global_assignment -name ECO_REGENERATE_REPORT ON
+set_global_assignment -name VHDL_FILE ../hdl/Camera/Camera_Master_Interface.vhd
+set_global_assignment -name QIP_FILE FIFO_Store_Line.qip
+set_global_assignment -name QIP_FILE FIFO_Master_Interface_Avalon_Bus.qip
+set_global_assignment -name QIP_FILE FIFO_Inter_Clock_Domain.qip
+set_global_assignment -name VHDL_FILE ../hdl/Camera/Top_Level.vhd
+set_global_assignment -name VHDL_FILE ../hdl/Camera/Camera_Slave_Interface.vhd
+set_global_assignment -name VHDL_FILE ../hdl/Camera/Camera_Acquisition_module.vhd
+set_global_assignment -name QSYS_FILE soc_system.qsys
+set_global_assignment -name VHDL_FILE ../hdl/DE1_SoC_top_level.vhd
+set_global_assignment -name QIP_FILE PLL_Camera.qip
+set_global_assignment -name SIP_FILE PLL_Camera.sip
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
