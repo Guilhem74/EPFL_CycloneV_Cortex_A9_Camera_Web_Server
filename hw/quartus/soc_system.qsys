@@ -19,13 +19,18 @@
    }
    element Camera_Component_0.avalon_slave_0
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
-         value = "335548416";
+         value = "32";
          type = "String";
       }
    }
-   element address_span_extender_0
+   element Span_Extender_TO_HPS
    {
       datum _sortIndex
       {
@@ -33,11 +38,16 @@
          type = "int";
       }
    }
-   element address_span_extender_0.windowed_slave
+   element Span_Extender_TO_HPS.windowed_slave
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
-         value = "0";
+         value = "268435456";
          type = "String";
       }
    }
@@ -47,6 +57,11 @@
       {
          value = "0";
          type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
       }
    }
    element hps_0
@@ -59,6 +74,11 @@
    }
    element hps_0.f2h_sdram0_data
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
          value = "0";
@@ -75,9 +95,14 @@
    }
    element hps_fpga_leds.s1
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
-         value = "268435456";
+         value = "0";
          type = "String";
       }
    }
@@ -91,9 +116,14 @@
    }
    element i2c_Component.avalon_slave_0
    {
+      datum _lockedAddress
+      {
+         value = "0";
+         type = "boolean";
+      }
       datum baseAddress
       {
-         value = "335548480";
+         value = "64";
          type = "String";
       }
    }
@@ -107,9 +137,14 @@
    }
    element jtag_uart_0.avalon_jtag_slave
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
-         value = "335548472";
+         value = "128";
          type = "String";
       }
    }
@@ -123,9 +158,14 @@
    }
    element nios2_gen2_0.debug_mem_slave
    {
+      datum _lockedAddress
+      {
+         value = "0";
+         type = "boolean";
+      }
       datum baseAddress
       {
-         value = "335546368";
+         value = "2048";
          type = "String";
       }
    }
@@ -139,9 +179,14 @@
    }
    element nios_leds.s1
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
-         value = "335548448";
+         value = "96";
          type = "String";
       }
    }
@@ -152,6 +197,11 @@
          value = "1";
          type = "int";
       }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
    }
    element sdram_controller_0
    {
@@ -161,11 +211,24 @@
          type = "int";
       }
    }
+   element sdram_controller_0.reset
+   {
+      datum _tags
+      {
+         value = "";
+         type = "String";
+      }
+   }
    element sdram_controller_0.s1
    {
+      datum _lockedAddress
+      {
+         value = "0";
+         type = "boolean";
+      }
       datum baseAddress
       {
-         value = "268435456";
+         value = "1073741824";
          type = "String";
       }
    }
@@ -187,9 +250,14 @@
    }
    element sysid.control_slave
    {
+      datum _lockedAddress
+      {
+         value = "0";
+         type = "boolean";
+      }
       datum baseAddress
       {
-         value = "335548464";
+         value = "256";
          type = "String";
       }
    }
@@ -255,7 +323,7 @@
    version="1.0"
    enabled="1" />
  <module
-   name="address_span_extender_0"
+   name="Span_Extender_TO_HPS"
    kind="altera_address_span_extender"
    version="18.1"
    enabled="1">
@@ -384,8 +452,8 @@
   <parameter name="F2SCLK_SDRAMCLK_Enable" value="false" />
   <parameter name="F2SCLK_SDRAMCLK_FREQ" value="0" />
   <parameter name="F2SCLK_WARMRST_Enable" value="false" />
-  <parameter name="F2SDRAM_Type" value="AXI-3" />
-  <parameter name="F2SDRAM_Width" value="64" />
+  <parameter name="F2SDRAM_Type">Avalon-MM Bidirectional</parameter>
+  <parameter name="F2SDRAM_Width" value="32" />
   <parameter name="F2SINTERRUPT_Enable" value="false" />
   <parameter name="F2S_Width" value="0" />
   <parameter name="FIX_READ_LATENCY" value="8" />
@@ -847,15 +915,15 @@
    kind="altera_nios2_gen2"
    version="18.1"
    enabled="1">
-  <parameter name="AUTO_CLK_CLOCK_DOMAIN" value="8" />
-  <parameter name="AUTO_CLK_RESET_DOMAIN" value="8" />
+  <parameter name="AUTO_CLK_CLOCK_DOMAIN" value="7" />
+  <parameter name="AUTO_CLK_RESET_DOMAIN" value="7" />
   <parameter name="AUTO_DEVICE" value="5CSEMA5F31C6" />
   <parameter name="AUTO_DEVICE_SPEEDGRADE" value="6" />
   <parameter name="bht_ramBlockType" value="Automatic" />
   <parameter name="breakOffset" value="32" />
   <parameter name="breakSlave" value="None" />
   <parameter name="cdx_enabled" value="false" />
-  <parameter name="clockFrequency" value="100000000" />
+  <parameter name="clockFrequency" value="50000000" />
   <parameter name="cpuArchRev" value="1" />
   <parameter name="cpuID" value="0" />
   <parameter name="cpuReset" value="false" />
@@ -863,10 +931,10 @@
   <parameter name="customInstSlavesSystemInfo_nios_a" value="&lt;info/&gt;" />
   <parameter name="customInstSlavesSystemInfo_nios_b" value="&lt;info/&gt;" />
   <parameter name="customInstSlavesSystemInfo_nios_c" value="&lt;info/&gt;" />
-  <parameter name="dataAddrWidth" value="29" />
+  <parameter name="dataAddrWidth" value="31" />
   <parameter name="dataMasterHighPerformanceAddrWidth" value="1" />
   <parameter name="dataMasterHighPerformanceMapParam" value="" />
-  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='hps_0_bridges.f2h_sdram0_data' start='0x0' end='0x10000000' type='hps_bridge_avalon.f2h_sdram0_data' /><slave name='sdram_controller_0.s1' start='0x10000000' end='0x14000000' type='altera_avalon_new_sdram_controller.s1' /><slave name='nios2_gen2_0.debug_mem_slave' start='0x14000800' end='0x14001000' type='altera_nios2_gen2.debug_mem_slave' /><slave name='Camera_Component_0.avalon_slave_0' start='0x14001000' end='0x14001020' type='Camera_Component.avalon_slave_0' /><slave name='nios_leds.s1' start='0x14001020' end='0x14001030' type='altera_avalon_pio.s1' /><slave name='sysid.control_slave' start='0x14001030' end='0x14001038' type='altera_avalon_sysid_qsys.control_slave' /><slave name='jtag_uart_0.avalon_jtag_slave' start='0x14001038' end='0x14001040' type='altera_avalon_jtag_uart.avalon_jtag_slave' /><slave name='i2c_Component.avalon_slave_0' start='0x14001040' end='0x14001044' type='I2c.avalon_slave_0' /></address-map>]]></parameter>
+  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='Camera_Component_0.avalon_slave_0' start='0x20' end='0x40' type='Camera_Component.avalon_slave_0' /><slave name='i2c_Component.avalon_slave_0' start='0x40' end='0x44' type='I2c.avalon_slave_0' /><slave name='nios_leds.s1' start='0x60' end='0x70' type='altera_avalon_pio.s1' /><slave name='jtag_uart_0.avalon_jtag_slave' start='0x80' end='0x88' type='altera_avalon_jtag_uart.avalon_jtag_slave' /><slave name='sysid.control_slave' start='0x100' end='0x108' type='altera_avalon_sysid_qsys.control_slave' /><slave name='nios2_gen2_0.debug_mem_slave' start='0x800' end='0x1000' type='altera_nios2_gen2.debug_mem_slave' /><slave name='hps_0_bridges.f2h_sdram0_data' start='0x10000000' end='0x20000000' type='hps_bridge_avalon.f2h_sdram0_data' /><slave name='sdram_controller_0.s1' start='0x40000000' end='0x44000000' type='altera_avalon_new_sdram_controller.s1' /></address-map>]]></parameter>
   <parameter name="data_master_high_performance_paddr_base" value="0" />
   <parameter name="data_master_high_performance_paddr_size" value="0" />
   <parameter name="data_master_paddr_base" value="0" />
@@ -904,8 +972,8 @@
   <parameter name="icache_size" value="4096" />
   <parameter name="icache_tagramBlockType" value="Automatic" />
   <parameter name="impl" value="Fast" />
-  <parameter name="instAddrWidth" value="29" />
-  <parameter name="instSlaveMapParam"><![CDATA[<address-map><slave name='hps_0_bridges.f2h_sdram0_data' start='0x0' end='0x10000000' type='hps_bridge_avalon.f2h_sdram0_data' /><slave name='sdram_controller_0.s1' start='0x10000000' end='0x14000000' type='altera_avalon_new_sdram_controller.s1' /><slave name='nios2_gen2_0.debug_mem_slave' start='0x14000800' end='0x14001000' type='altera_nios2_gen2.debug_mem_slave' /></address-map>]]></parameter>
+  <parameter name="instAddrWidth" value="31" />
+  <parameter name="instSlaveMapParam"><![CDATA[<address-map><slave name='nios2_gen2_0.debug_mem_slave' start='0x800' end='0x1000' type='altera_nios2_gen2.debug_mem_slave' /><slave name='sdram_controller_0.s1' start='0x40000000' end='0x44000000' type='altera_avalon_new_sdram_controller.s1' /></address-map>]]></parameter>
   <parameter name="instructionMasterHighPerformanceAddrWidth" value="1" />
   <parameter name="instructionMasterHighPerformanceMapParam" value="" />
   <parameter name="instruction_master_high_performance_paddr_base" value="0" />
@@ -1281,61 +1349,16 @@
    kind="avalon"
    version="18.1"
    start="Camera_Component_0.avalon_master"
-   end="address_span_extender_0.windowed_slave">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0000" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="18.1"
-   start="nios2_gen2_0.data_master"
-   end="jtag_uart_0.avalon_jtag_slave">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x14001038" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="18.1"
-   start="nios2_gen2_0.data_master"
-   end="Camera_Component_0.avalon_slave_0">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x14001000" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="18.1"
-   start="nios2_gen2_0.data_master"
-   end="i2c_Component.avalon_slave_0">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x14001040" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="18.1"
-   start="nios2_gen2_0.data_master"
-   end="sysid.control_slave">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x14001030" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="18.1"
-   start="nios2_gen2_0.data_master"
-   end="nios2_gen2_0.debug_mem_slave">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x14000800" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="18.1"
-   start="nios2_gen2_0.data_master"
    end="sdram_controller_0.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x40000000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="Camera_Component_0.avalon_master"
+   end="Span_Extender_TO_HPS.windowed_slave">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x10000000" />
   <parameter name="defaultConnection" value="false" />
@@ -1344,24 +1367,78 @@
    kind="avalon"
    version="18.1"
    start="nios2_gen2_0.data_master"
-   end="nios_leds.s1">
+   end="jtag_uart_0.avalon_jtag_slave">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x14001020" />
+  <parameter name="baseAddress" value="0x0080" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
    kind="avalon"
    version="18.1"
    start="nios2_gen2_0.data_master"
-   end="address_span_extender_0.windowed_slave">
+   end="Camera_Component_0.avalon_slave_0">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0000" />
+  <parameter name="baseAddress" value="0x0020" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
    kind="avalon"
    version="18.1"
-   start="address_span_extender_0.expanded_master"
+   start="nios2_gen2_0.data_master"
+   end="i2c_Component.avalon_slave_0">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0040" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="nios2_gen2_0.data_master"
+   end="sysid.control_slave">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0100" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="nios2_gen2_0.data_master"
+   end="nios2_gen2_0.debug_mem_slave">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0800" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="nios2_gen2_0.data_master"
+   end="nios_leds.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0060" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="nios2_gen2_0.data_master"
+   end="sdram_controller_0.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x40000000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="nios2_gen2_0.data_master"
+   end="Span_Extender_TO_HPS.windowed_slave">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x10000000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="Span_Extender_TO_HPS.expanded_master"
    end="hps_0.f2h_sdram0_data">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x0000" />
@@ -1371,16 +1448,25 @@
    kind="avalon"
    version="18.1"
    start="hps_0.h2f_lw_axi_master"
-   end="hps_fpga_leds.s1">
+   end="Camera_Component_0.avalon_slave_0">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x10000000" />
+  <parameter name="baseAddress" value="0x0020" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
    kind="avalon"
    version="18.1"
    start="hps_0.h2f_lw_axi_master"
-   end="address_span_extender_0.windowed_slave">
+   end="i2c_Component.avalon_slave_0">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0040" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="hps_0.h2f_lw_axi_master"
+   end="hps_fpga_leds.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x0000" />
   <parameter name="defaultConnection" value="false" />
@@ -1391,7 +1477,7 @@
    start="nios2_gen2_0.instruction_master"
    end="nios2_gen2_0.debug_mem_slave">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x14000800" />
+  <parameter name="baseAddress" value="0x0800" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -1400,16 +1486,7 @@
    start="nios2_gen2_0.instruction_master"
    end="sdram_controller_0.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x10000000" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="18.1"
-   start="nios2_gen2_0.instruction_master"
-   end="address_span_extender_0.windowed_slave">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0000" />
+  <parameter name="baseAddress" value="0x40000000" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection kind="clock" version="18.1" start="clk_0.clk" end="pll_0.refclk" />
@@ -1429,12 +1506,17 @@
    kind="clock"
    version="18.1"
    start="pll_0.outclk0"
+   end="nios2_gen2_0.clk" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="pll_0.outclk0"
    end="i2c_Component.clock" />
  <connection
    kind="clock"
    version="18.1"
    start="pll_0.outclk0"
-   end="address_span_extender_0.clock" />
+   end="Span_Extender_TO_HPS.clock" />
  <connection
    kind="clock"
    version="18.1"
@@ -1455,11 +1537,6 @@
    version="18.1"
    start="pll_0.outclk1"
    end="sdram_controller_0.clk" />
- <connection
-   kind="clock"
-   version="18.1"
-   start="pll_0.outclk1"
-   end="nios2_gen2_0.clk" />
  <connection
    kind="interrupt"
    version="18.1"
@@ -1502,7 +1579,7 @@
    kind="reset"
    version="18.1"
    start="clk_0.clk_reset"
-   end="address_span_extender_0.reset" />
+   end="Span_Extender_TO_HPS.reset" />
  <connection kind="reset" version="18.1" start="clk_0.clk_reset" end="sysid.reset" />
  <connection
    kind="reset"
@@ -1543,7 +1620,7 @@
    kind="reset"
    version="18.1"
    start="nios2_gen2_0.debug_reset_request"
-   end="address_span_extender_0.reset" />
+   end="Span_Extender_TO_HPS.reset" />
  <connection
    kind="reset"
    version="18.1"
@@ -1553,12 +1630,17 @@
    kind="reset"
    version="18.1"
    start="hps_0.h2f_reset"
-   end="address_span_extender_0.reset" />
+   end="Span_Extender_TO_HPS.reset" />
  <connection
    kind="reset"
    version="18.1"
    start="hps_0.h2f_reset"
    end="hps_fpga_leds.reset" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="hps_0.h2f_reset"
+   end="Camera_Component_0.reset" />
  <interconnectRequirement for="$system" name="qsys_mm.clockCrossingAdapter" value="HANDSHAKE" />
  <interconnectRequirement for="$system" name="qsys_mm.insertDefaultSlave" value="FALSE" />
  <interconnectRequirement for="$system" name="qsys_mm.maxAdditionalLatency" value="1" />
