@@ -18,26 +18,26 @@ int Camera_Acquisition_Module_SETUP_Address_Memory(int Address)
 {
 	IOWR_32DIRECT(CAMERA_COMPONENT_0_BASE, CAMERA_MODULE_REGISTER_ADDRESS, Address);
 	for (int i=0;i<10;i++);
-	return IORD_32DIRECT(CAMERA_MODULE_0_BASE,CAMERA_MODULE_REGISTER_ADDRESS);
+	return IORD_32DIRECT(CAMERA_COMPONENT_0_BASE,CAMERA_MODULE_REGISTER_ADDRESS);
 }
 // Length : Number of pixel to store. reminder : 1 Memory slot =2 pixels and 1 memory slot = 4 bytes
 int Camera_Acquisition_Module_SETUP_Length_Frame(int Pixel_Number)
 {
 	IOWR_32DIRECT(CAMERA_COMPONENT_0_BASE, CAMERA_MODULE_REGISTER_LENGTH, Pixel_Number/2*4);//*4 because 32bits;
 	for (int i=0;i<10;i++);
-	return IORD_32DIRECT(CAMERA_MODULE_0_BASE,CAMERA_MODULE_REGISTER_LENGTH);
+	return IORD_32DIRECT(CAMERA_COMPONENT_0_BASE,CAMERA_MODULE_REGISTER_LENGTH);
 }
 int Camera_Acquisition_Module_Start()
 {
 	IOWR_32DIRECT(CAMERA_COMPONENT_0_BASE, CAMERA_MODULE_REGISTER_START, 1);//*4 because 32bits;
 	for (int i=0;i<10;i++);
-	return IORD_32DIRECT(CAMERA_MODULE_0_BASE,CAMERA_MODULE_REGISTER_START);
+	return IORD_32DIRECT(CAMERA_COMPONENT_0_BASE,CAMERA_MODULE_REGISTER_START);
 }
 int Camera_Acquisition_Module_Stop()
 {
 	IOWR_32DIRECT(CAMERA_COMPONENT_0_BASE, CAMERA_MODULE_REGISTER_STOP, 1);//*4 because 32bits;
 	for (int i=0;i<10;i++);
-	return IORD_32DIRECT(CAMERA_MODULE_0_BASE,CAMERA_MODULE_REGISTER_STOP);
+	return IORD_32DIRECT(CAMERA_COMPONENT_0_BASE,CAMERA_MODULE_REGISTER_STOP);
 }
 void Camera_Acquisition_Module_Display_Registers()
 {
@@ -91,7 +91,7 @@ void Camera_Acquisition_Module_Display_Registers()
  {
  	Camera_Acquisition_Module_Stop();
  	delay(5000);
- 	Camera_Acquisition_Module_SETUP_Address_Memory(HPS_0_BRIDGES_BASE);//Address of the HPC, 256 MB Available from it
+ 	Camera_Acquisition_Module_SETUP_Address_Memory(SDRAM_CONTROLLER_0_BASE);//Address of the HPC, 256 MB Available from it
  	Camera_Acquisition_Module_SETUP_Length_Frame(76800);//320*240
  	Camera_Acquisition_Module_Start();//Set a one in the start register
 

@@ -4,7 +4,7 @@
  * Machine generated for CPU 'nios2_gen2_0' in SOPC Builder design 'soc_system'
  * SOPC Builder design path: C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/hw/quartus/soc_system.sopcinfo
  *
- * Generated: Sun May 26 20:34:42 CEST 2019
+ * Generated: Tue May 28 19:46:49 CEST 2019
  */
 
 /*
@@ -50,12 +50,14 @@
 
 MEMORY
 {
-    reset : ORIGIN = 0x0, LENGTH = 32
-    sdram_controller_0 : ORIGIN = 0x20, LENGTH = 67108832
+    reset : ORIGIN = 0x20000, LENGTH = 32
+    onchip_memory2_0 : ORIGIN = 0x20020, LENGTH = 131040
+    sdram_controller_0 : ORIGIN = 0x40000000, LENGTH = 67108864
 }
 
 /* Define symbols for each memory base-address */
-__alt_mem_sdram_controller_0 = 0x0;
+__alt_mem_onchip_memory2_0 = 0x20000;
+__alt_mem_sdram_controller_0 = 0x40000000;
 
 OUTPUT_FORMAT( "elf32-littlenios2",
                "elf32-littlenios2",
@@ -111,7 +113,7 @@ SECTIONS
         KEEP (*(.exceptions.exit));
         KEEP (*(.exceptions));
         PROVIDE (__ram_exceptions_end = ABSOLUTE(.));
-    } > sdram_controller_0
+    } > onchip_memory2_0
 
     PROVIDE (__flash_exceptions_start = LOADADDR(.exceptions));
 
@@ -207,7 +209,7 @@ SECTIONS
         PROVIDE (__DTOR_END__ = ABSOLUTE(.));
         KEEP (*(.jcr))
         . = ALIGN(4);
-    } > sdram_controller_0 = 0x3a880100 /* NOP instruction (always in big-endian byte ordering) */
+    } > onchip_memory2_0 = 0x3a880100 /* NOP instruction (always in big-endian byte ordering) */
 
     .rodata :
     {
@@ -217,7 +219,7 @@ SECTIONS
         *(.rodata1)
         . = ALIGN(4);
         PROVIDE (__ram_rodata_end = ABSOLUTE(.));
-    } > sdram_controller_0
+    } > onchip_memory2_0
 
     PROVIDE (__flash_rodata_start = LOADADDR(.rodata));
 
@@ -251,7 +253,7 @@ SECTIONS
         _edata = ABSOLUTE(.);
         PROVIDE (edata = ABSOLUTE(.));
         PROVIDE (__ram_rwdata_end = ABSOLUTE(.));
-    } > sdram_controller_0
+    } > onchip_memory2_0
 
     PROVIDE (__flash_rwdata_start = LOADADDR(.rwdata));
 
@@ -282,7 +284,7 @@ SECTIONS
 
         . = ALIGN(4);
         __bss_end = ABSOLUTE(.);
-    } > sdram_controller_0
+    } > onchip_memory2_0
 
     /*
      *
@@ -307,15 +309,32 @@ SECTIONS
      *
      */
 
-    .sdram_controller_0 LOADADDR (.bss) + SIZEOF (.bss) : AT ( LOADADDR (.bss) + SIZEOF (.bss) )
+    .onchip_memory2_0 LOADADDR (.bss) + SIZEOF (.bss) : AT ( LOADADDR (.bss) + SIZEOF (.bss) )
+    {
+        PROVIDE (_alt_partition_onchip_memory2_0_start = ABSOLUTE(.));
+        *(.onchip_memory2_0 .onchip_memory2_0. onchip_memory2_0.*)
+        . = ALIGN(4);
+        PROVIDE (_alt_partition_onchip_memory2_0_end = ABSOLUTE(.));
+        _end = ABSOLUTE(.);
+        end = ABSOLUTE(.);
+        __alt_stack_base = ABSOLUTE(.);
+    } > onchip_memory2_0
+
+    PROVIDE (_alt_partition_onchip_memory2_0_load_addr = LOADADDR(.onchip_memory2_0));
+
+    /*
+     *
+     * This section's LMA is set to the .text region.
+     * crt0 will copy to this section's specified mapped region virtual memory address (VMA)
+     *
+     */
+
+    .sdram_controller_0 : AT ( LOADADDR (.onchip_memory2_0) + SIZEOF (.onchip_memory2_0) )
     {
         PROVIDE (_alt_partition_sdram_controller_0_start = ABSOLUTE(.));
         *(.sdram_controller_0 .sdram_controller_0. sdram_controller_0.*)
         . = ALIGN(4);
         PROVIDE (_alt_partition_sdram_controller_0_end = ABSOLUTE(.));
-        _end = ABSOLUTE(.);
-        end = ABSOLUTE(.);
-        __alt_stack_base = ABSOLUTE(.);
     } > sdram_controller_0
 
     PROVIDE (_alt_partition_sdram_controller_0_load_addr = LOADADDR(.sdram_controller_0));
@@ -367,7 +386,7 @@ SECTIONS
 /*
  * Don't override this, override the __alt_stack_* symbols instead.
  */
-__alt_data_end = 0x4000000;
+__alt_data_end = 0x40000;
 
 /*
  * The next two symbols define the location of the default stack.  You can
@@ -383,4 +402,4 @@ PROVIDE( __alt_stack_limit   = __alt_stack_base );
  * Override this symbol to put the heap in a different memory.
  */
 PROVIDE( __alt_heap_start    = end );
-PROVIDE( __alt_heap_limit    = 0x4000000 );
+PROVIDE( __alt_heap_limit    = 0x40000 );

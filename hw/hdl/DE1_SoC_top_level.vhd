@@ -369,8 +369,8 @@ begin
 		  camera_component_0_conduit_end_display_buffer => open, --                                  .display_buffer
 	     camera_component_0_conduit_end_fval           => GPIO_1_D5M_FVAL,           --                                  .fval
 	     camera_component_0_conduit_end_lval           => GPIO_1_D5M_LVAL,            --                                  .lval
-		  i2c_0_conduit_end_scl                         => GPIO_1_D5M_SCLK,                         --                 i2c_0_conduit_end.scl
-		  i2c_0_conduit_end_sda                         => GPIO_1_D5M_SDATA                          --                                  .sda
+		  i2c_0_conduit_end_scl                         =>  GPIO_1(24),                         --                 i2c_0_conduit_end.scl
+		  i2c_0_conduit_end_sda                         =>  GPIO_1(23)                          --                                  .sda
 		  
     );
 	 GPIO_1(0)<=GPIO_1_D5M_PIXCLK;
@@ -392,8 +392,7 @@ begin
 	 GPIO_1(20)<=GPIO_1_D5M_STROBE;
 	 GPIO_1(21)<=GPIO_1_D5M_LVAL;
 	 GPIO_1(22)<=GPIO_1_D5M_FVAL;
-	 GPIO_1(23)<=GPIO_1_D5M_SDATA;
-	 GPIO_1(24)<=GPIO_1_D5M_SCLK;
-
+	 GPIO_1_D5M_RESET_N<=KEY_N(0);
+	 GPIO_1_D5M_TRIGGER<=not(KEY_N(1));
 	 LEDR(9 downto 8)<=SW(9 downto 8);
 end;

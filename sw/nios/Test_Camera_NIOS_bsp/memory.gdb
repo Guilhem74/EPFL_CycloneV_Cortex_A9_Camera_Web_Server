@@ -3,7 +3,7 @@
 # Machine generated for CPU 'nios2_gen2_0' in SOPC Builder design 'soc_system'
 # SOPC Builder design path: C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/hw/quartus/soc_system.sopcinfo
 #
-# Generated: Sun May 26 20:34:42 CEST 2019
+# Generated: Tue May 28 19:45:39 CEST 2019
 
 # DO NOT MODIFY THIS FILE
 #
@@ -46,5 +46,8 @@
 # The cache attribute is specified which improves GDB performance
 # by allowing GDB to cache memory contents on the host.
 
+# onchip_memory2_0
+memory 0x20000 0x40000 cache
+
 # sdram_controller_0
-memory 0x0 0x4000000 cache
+memory 0x40000000 0x44000000 cache

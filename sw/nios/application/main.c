@@ -13,7 +13,6 @@
 #include "CMOS_Sensor/cmos_sensor_output_generator_regs.h"
 #include "custom_functions/Memory_Access.h"
 #include "custom_functions/function_i2c.h"
-#include "custom_functions/LCD_function.h"
 
 
 
@@ -22,30 +21,31 @@ int main(void) {
 	printf("Compiled %s %s\n", __DATE__, __TIME__);
 	delay(1000);
 
-#if DEBUG_MEMORY
-	Quick_Test_Memory_Map();
-	#if ULTRA_Debug
-		Test_Memory_Map();
-	#endif
-#endif
-#if DEBUG_I2C && Camera_Connected
-	Test_i2c();
-#endif
-#if Frame_Generator && !Camera_Connected
-	Test_Function_Generator();
-#endif
-#if LCD_Connected
-	LCD_Configuration();
-#endif
-#if Camera_Connected
-	Camera_Configuration();
-	Test_Camera_Memory();
-#endif
+//#if DEBUG_MEMORY
+//	Quick_Test_Memory_Map();
+//	#if ULTRA_Debug
+//		Test_Memory_Map();
+//	#endif
+//#endif
+//#if DEBUG_I2C && Camera_Connected
+//#endif
+//#if Frame_Generator && !Camera_Connected
+//	Test_Function_Generator();
+//#endif
+//#if LCD_Connected
+//	LCD_Configuration();
+//#endif
+//#if Camera_Connected
+//	Camera_Configuration();
+//	Test_Camera_Memory();
+//#endif
 
-	/*while(1)
-	{	LCD_Configuration();
+	while(1)
+	{	//LCD_Configuration();
+		Test_i2c();
+		delay(1000);
 
-	}*/
+	}
 }
 
 

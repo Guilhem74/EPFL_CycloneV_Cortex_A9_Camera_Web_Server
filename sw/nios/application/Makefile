@@ -142,12 +142,11 @@ ACDS_VERSION := 18.1
 ELF := Test_Camera_NIOS.elf
 
 # Paths to C, C++, and assembly source files.
-C_SRCS += hello_world.c
 C_SRCS += CMOS_Sensor/cmos_sensor_output_generator.c
 C_SRCS += custom_functions/Camera_function.c
-C_SRCS += custom_functions/LCD_function.c
 C_SRCS += custom_functions/Memory_Access.c
 C_SRCS += custom_functions/function_i2c.c
+C_SRCS += i2c/i2c.c
 C_SRCS += main.c
 CXX_SRCS :=
 ASM_SRCS :=
