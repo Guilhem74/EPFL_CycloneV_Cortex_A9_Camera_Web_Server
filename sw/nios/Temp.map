@@ -1,0 +1,1661 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-puts.o)
+                              obj/default/hello_world.o (puts)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-puts.o) (strlen)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-findfp.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-puts.o) (__sinit)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fvwrite.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-puts.o) (__sfvwrite_r)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fwalk.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-findfp.o) (_fwalk)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-findfp.o) (_global_impure_ptr)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-mallocr.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-findfp.o) (_malloc_r)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memchr.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fvwrite.o) (memchr)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fvwrite.o) (memcpy)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memmove.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fvwrite.o) (memmove)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-findfp.o) (memset)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-reallocr.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fvwrite.o) (_realloc_r)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-sbrkr.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-mallocr.o) (_sbrk_r)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-stdio.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-findfp.o) (__sread)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-writer.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-stdio.o) (_write_r)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-wsetup.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fvwrite.o) (__swsetup_r)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(closer.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-stdio.o) (_close_r)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fclose.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-findfp.o) (_fclose_r)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fflush.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fclose.o) (__sflush_r)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-freer.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fvwrite.o) (_free_r)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-sbrkr.o) (errno)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-lseekr.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-stdio.o) (_lseek_r)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-makebuf.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-wsetup.o) (__smakebuf_r)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-readr.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-stdio.o) (_read_r)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fstatr.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-makebuf.o) (_fstat_r)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-isattyr.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-makebuf.o) (_isatty_r)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fvwrite.o) (__divsi3)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_close.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(closer.o) (close)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_dev.o)
+                              C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_close.o) (alt_fd_list)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_errno.o)
+                              C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_close.o) (alt_errno)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_fstat.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fstatr.o) (fstat)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_isatty.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-isattyr.o) (isatty)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_load.o)
+                              C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp//obj/HAL/src/crt0.o (alt_load)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_lseek.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-lseekr.o) (lseek)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_main.o)
+                              C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp//obj/HAL/src/crt0.o (alt_main)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_malloc_lock.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-mallocr.o) (__malloc_lock)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_read.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-readr.o) (read)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_release_fd.o)
+                              C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_close.o) (alt_release_fd)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_sbrk.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-sbrkr.o) (sbrk)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_write.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-writer.o) (write)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_sys_init.o)
+                              C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_main.o) (alt_irq_init)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                              C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_avalon_jtag_uart_read_fd)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+                              C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_avalon_jtag_uart_init)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                              C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_ioctl)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                              C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_read)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                              C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_write)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_alarm_start.o)
+                              C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o) (alt_alarm_start)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                              C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                              C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_llist_insert)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                              C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_main.o) (_do_ctors)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                              C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_main.o) (_do_dtors)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                              C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_iic.o)
+                              C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o) (alt_ic_isr_register)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                              C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_iic.o) (alt_iic_isr_register)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                              C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_main.o) (alt_io_redirect)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                              C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq_entry)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                              C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                              C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_iic.o) (alt_irq_active)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_open.o)
+                              C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_io_redirect.o) (open)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_tick.o)
+                              C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o) (_alt_tick_rate)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                              C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_nios2_gen2_irq_init)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                              C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_entry.o) (alt_exception)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_find_dev.o)
+                              C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_open.o) (alt_find_dev)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_find_file.o)
+                              C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_open.o) (alt_find_file)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_get_fd.o)
+                              C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_open.o) (alt_get_fd)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                              C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_icache_flush_all.o) (alt_icache_flush)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                              C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_exception_entry.o) (alt_instruction_exception_entry)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+                              C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_main.o) (atexit)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+                              C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_main.o) (exit)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+                              C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_find_dev.o) (memcmp)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o) (__register_exitproc)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o) (__call_exitprocs)
+C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_exit.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+alt_irq             0x100             C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_handler.o)
+errno               0x4               c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x0000000010100000 0x0000000000000020
+onchip_memory2_0 0x0000000010100020 0x000000000001ffe0
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp//obj/HAL/src/crt0.o
+LOAD obj/default/hello_world.o
+LOAD c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libstdc++.a
+LOAD c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libm.a
+LOAD c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a
+START GROUP
+LOAD c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a
+LOAD c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a
+LOAD C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a
+LOAD c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libm.a
+END GROUP
+LOAD c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a
+                0x0000000010100000                __alt_mem_onchip_memory2_0 = 0x10100000
+
+.entry          0x0000000010100000       0x20
+ *(.entry)
+ .entry         0x0000000010100000       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp//obj/HAL/src/crt0.o
+                0x0000000010100000                __reset
+
+.exceptions     0x0000000010100020      0x224
+                0x0000000010100020                PROVIDE (__ram_exceptions_start, ABSOLUTE (.))
+                0x0000000010100020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ .exceptions.entry.label
+                0x0000000010100020        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                0x0000000010100020                alt_irq_entry
+ .exceptions.entry.label
+                0x0000000010100020        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                0x0000000010100020                alt_exception
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ .exceptions.entry
+                0x0000000010100020       0x54 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ .exceptions.irqtest
+                0x0000000010100074       0x10 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ .exceptions.irqhandler
+                0x0000000010100084        0x4 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ .exceptions.irqreturn
+                0x0000000010100088        0x4 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.label)
+ .exceptions.notirq.label
+                0x000000001010008c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ .exceptions.notirq
+                0x000000001010008c        0x8 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ .exceptions.unknown
+                0x0000000010100094       0x14 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.label)
+ .exceptions.exit.label
+                0x00000000101000a8        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .exceptions.exit.label
+                0x00000000101000a8        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ .exceptions.exit
+                0x00000000101000a8       0x54 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions)
+ .exceptions    0x00000000101000fc       0xd4 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                0x00000000101000fc                alt_irq_handler
+ .exceptions    0x00000000101001d0       0x74 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x00000000101001d0                alt_instruction_exception_entry
+                0x0000000010100244                PROVIDE (__ram_exceptions_end, ABSOLUTE (.))
+                0x0000000010100020                PROVIDE (__flash_exceptions_start, LOADADDR (.exceptions))
+
+.text           0x0000000010100244     0x54d4
+                [!provide]                        PROVIDE (stext, ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000010100244       0x4c C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp//obj/HAL/src/crt0.o
+                0x0000000010100244                _start
+ .text          0x0000000010100290       0x20 obj/default/hello_world.o
+                0x0000000010100290                main
+ .text          0x00000000101002b0        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-puts.o)
+ .text._puts_r  0x00000000101002b0       0xc0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-puts.o)
+                0x00000000101002b0                _puts_r
+ .text.puts     0x0000000010100370       0x14 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-puts.o)
+                0x0000000010100370                puts
+ .text          0x0000000010100384        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .text.strlen   0x0000000010100384       0x98 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+                0x0000000010100384                strlen
+ .text          0x000000001010041c        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-findfp.o)
+ .text.__fp_unlock
+                0x000000001010041c        0x8 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-findfp.o)
+ .text._cleanup_r
+                0x0000000010100424        0xc c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-findfp.o)
+                0x0000000010100424                _cleanup_r
+ .text.__sinit.part.1
+                0x0000000010100430      0x19c c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-findfp.o)
+ .text.__fp_lock
+                0x00000000101005cc        0x8 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-findfp.o)
+ .text.__sfmoreglue
+                0x00000000101005d4       0x68 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-findfp.o)
+                0x00000000101005d4                __sfmoreglue
+ .text.__sfp    0x000000001010063c      0x118 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-findfp.o)
+                0x000000001010063c                __sfp
+ .text._cleanup
+                0x0000000010100754       0x18 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-findfp.o)
+                0x0000000010100754                _cleanup
+ .text.__sinit  0x000000001010076c       0x10 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-findfp.o)
+                0x000000001010076c                __sinit
+ .text.__sfp_lock_acquire
+                0x000000001010077c        0x4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-findfp.o)
+                0x000000001010077c                __sfp_lock_acquire
+ .text.__sfp_lock_release
+                0x0000000010100780        0x4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-findfp.o)
+                0x0000000010100780                __sfp_lock_release
+ .text.__sinit_lock_acquire
+                0x0000000010100784        0x4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-findfp.o)
+                0x0000000010100784                __sinit_lock_acquire
+ .text.__sinit_lock_release
+                0x0000000010100788        0x4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-findfp.o)
+                0x0000000010100788                __sinit_lock_release
+ .text.__fp_lock_all
+                0x000000001010078c       0x18 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-findfp.o)
+                0x000000001010078c                __fp_lock_all
+ .text.__fp_unlock_all
+                0x00000000101007a4       0x18 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-findfp.o)
+                0x00000000101007a4                __fp_unlock_all
+ .text          0x00000000101007bc        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fvwrite.o)
+ .text.__sfvwrite_r
+                0x00000000101007bc      0x4bc c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fvwrite.o)
+                0x00000000101007bc                __sfvwrite_r
+ .text          0x0000000010100c78        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fwalk.o)
+ .text._fwalk   0x0000000010100c78       0xc4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fwalk.o)
+                0x0000000010100c78                _fwalk
+ .text._fwalk_reent
+                0x0000000010100d3c       0xc4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fwalk.o)
+                0x0000000010100d3c                _fwalk_reent
+ .text          0x0000000010100e00        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .text          0x0000000010100e00        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-mallocr.o)
+ .text._malloc_r
+                0x0000000010100e00      0x80c c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-mallocr.o)
+                0x0000000010100e00                _malloc_r
+ .text          0x000000001010160c        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memchr.o)
+ .text.memchr   0x000000001010160c       0xe4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memchr.o)
+                0x000000001010160c                memchr
+ .text          0x00000000101016f0        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .text.memcpy   0x00000000101016f0      0x148 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+                0x00000000101016f0                memcpy
+ .text          0x0000000010101838        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memmove.o)
+ .text.memmove  0x0000000010101838      0x15c c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memmove.o)
+                0x0000000010101838                memmove
+ .text          0x0000000010101994        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+ .text.memset   0x0000000010101994      0x128 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+                0x0000000010101994                memset
+ .text          0x0000000010101abc        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-reallocr.o)
+ .text._realloc_r
+                0x0000000010101abc      0x564 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-reallocr.o)
+                0x0000000010101abc                _realloc_r
+ .text          0x0000000010102020        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-sbrkr.o)
+ .text._sbrk_r  0x0000000010102020       0x54 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-sbrkr.o)
+                0x0000000010102020                _sbrk_r
+ .text          0x0000000010102074        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-stdio.o)
+ .text.__sread  0x0000000010102074       0x54 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-stdio.o)
+                0x0000000010102074                __sread
+ .text.__seofread
+                0x00000000101020c8        0x8 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-stdio.o)
+                0x00000000101020c8                __seofread
+ .text.__swrite
+                0x00000000101020d0       0x7c c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-stdio.o)
+                0x00000000101020d0                __swrite
+ .text.__sseek  0x000000001010214c       0x5c c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-stdio.o)
+                0x000000001010214c                __sseek
+ .text.__sclose
+                0x00000000101021a8        0x8 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-stdio.o)
+                0x00000000101021a8                __sclose
+ .text          0x00000000101021b0        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-writer.o)
+ .text._write_r
+                0x00000000101021b0       0x60 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-writer.o)
+                0x00000000101021b0                _write_r
+ .text          0x0000000010102210        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-wsetup.o)
+ .text.__swsetup_r
+                0x0000000010102210      0x154 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-wsetup.o)
+                0x0000000010102210                __swsetup_r
+ .text          0x0000000010102364        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(closer.o)
+ .text._close_r
+                0x0000000010102364       0x54 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(closer.o)
+                0x0000000010102364                _close_r
+ .text          0x00000000101023b8        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fclose.o)
+ .text._fclose_r
+                0x00000000101023b8       0xf0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fclose.o)
+                0x00000000101023b8                _fclose_r
+ .text.fclose   0x00000000101024a8       0x14 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fclose.o)
+                0x00000000101024a8                fclose
+ .text          0x00000000101024bc        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fflush.o)
+ .text.__sflush_r
+                0x00000000101024bc      0x21c c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fflush.o)
+                0x00000000101024bc                __sflush_r
+ .text._fflush_r
+                0x00000000101026d8       0x5c c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fflush.o)
+                0x00000000101026d8                _fflush_r
+ .text.fflush   0x0000000010102734       0x30 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fflush.o)
+                0x0000000010102734                fflush
+ .text          0x0000000010102764        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-freer.o)
+ .text._malloc_trim_r
+                0x0000000010102764      0x124 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-freer.o)
+                0x0000000010102764                _malloc_trim_r
+ .text._free_r  0x0000000010102888      0x310 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-freer.o)
+                0x0000000010102888                _free_r
+ .text          0x0000000010102b98        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .text          0x0000000010102b98        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-lseekr.o)
+ .text._lseek_r
+                0x0000000010102b98       0x60 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-lseekr.o)
+                0x0000000010102b98                _lseek_r
+ .text          0x0000000010102bf8        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-makebuf.o)
+ .text.__smakebuf_r
+                0x0000000010102bf8      0x1bc c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-makebuf.o)
+                0x0000000010102bf8                __smakebuf_r
+ .text          0x0000000010102db4        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-readr.o)
+ .text._read_r  0x0000000010102db4       0x60 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-readr.o)
+                0x0000000010102db4                _read_r
+ .text          0x0000000010102e14        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fstatr.o)
+ .text._fstat_r
+                0x0000000010102e14       0x5c c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fstatr.o)
+                0x0000000010102e14                _fstat_r
+ .text          0x0000000010102e70        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-isattyr.o)
+ .text._isatty_r
+                0x0000000010102e70       0x54 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-isattyr.o)
+                0x0000000010102e70                _isatty_r
+ .text          0x0000000010102ec4      0x1b4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+                0x0000000010102ec4                __divsi3
+                0x0000000010102f48                __modsi3
+                0x0000000010102fbc                __udivsi3
+                0x0000000010103020                __umodsi3
+ .text          0x0000000010103078      0x10c C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_close.o)
+                0x00000000101030b4                close
+ .text          0x0000000010103184       0x2c C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_dev.o)
+ .text          0x00000000101031b0        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_errno.o)
+ .text          0x00000000101031b0       0xec C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_fstat.o)
+                0x00000000101031ec                fstat
+ .text          0x000000001010329c       0xe0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_isatty.o)
+                0x00000000101032d8                isatty
+ .text          0x000000001010337c       0xec C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_load.o)
+                0x00000000101033e4                alt_load
+ .text          0x0000000010103468      0x110 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_lseek.o)
+                0x00000000101034a4                lseek
+ .text          0x0000000010103578       0x7c C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_main.o)
+                0x0000000010103578                alt_main
+ .text          0x00000000101035f4       0x48 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_malloc_lock.o)
+                0x00000000101035f4                __malloc_lock
+                0x0000000010103618                __malloc_unlock
+ .text          0x000000001010363c      0x138 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_read.o)
+                0x0000000010103678                read
+ .text          0x0000000010103774       0x64 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_release_fd.o)
+                0x0000000010103774                alt_release_fd
+ .text          0x00000000101037d8       0xb0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_sbrk.o)
+                0x00000000101037d8                sbrk
+ .text          0x0000000010103888      0x134 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_write.o)
+                0x00000000101038c4                write
+ .text          0x00000000101039bc       0xb4 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x00000000101039f0                alt_irq_init
+                0x0000000010103a28                alt_sys_init
+ .text          0x0000000010103a70      0x164 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                0x0000000010103a70                altera_avalon_jtag_uart_read_fd
+                0x0000000010103ad0                altera_avalon_jtag_uart_write_fd
+                0x0000000010103b30                altera_avalon_jtag_uart_close_fd
+                0x0000000010103b80                altera_avalon_jtag_uart_ioctl_fd
+ .text          0x0000000010103bd4      0x3d4 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+                0x0000000010103bd4                altera_avalon_jtag_uart_init
+                0x0000000010103f40                altera_avalon_jtag_uart_close
+ .text          0x0000000010103fa8       0xf0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                0x0000000010103fa8                altera_avalon_jtag_uart_ioctl
+ .text          0x0000000010104098      0x21c C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                0x0000000010104098                altera_avalon_jtag_uart_read
+ .text          0x00000000101042b4      0x224 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                0x00000000101042b4                altera_avalon_jtag_uart_write
+ .text          0x00000000101044d8      0x12c C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_alarm_start.o)
+                0x00000000101044d8                alt_alarm_start
+ .text          0x0000000010104604       0x48 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                0x0000000010104604                alt_dcache_flush_all
+ .text          0x000000001010464c       0xe0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                0x0000000010104688                alt_dev_llist_insert
+ .text          0x000000001010472c       0x60 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                0x000000001010472c                _do_ctors
+ .text          0x000000001010478c       0x60 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                0x000000001010478c                _do_dtors
+ .text          0x00000000101047ec       0x34 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                0x00000000101047ec                alt_icache_flush_all
+ .text          0x0000000010104820      0x1b0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_iic.o)
+                0x0000000010104820                alt_ic_isr_register
+                0x0000000010104870                alt_ic_irq_enable
+                0x00000000101048f8                alt_ic_irq_disable
+                0x0000000010104984                alt_ic_irq_enabled
+ .text          0x00000000101049d0       0xf0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                0x00000000101049d0                alt_iic_isr_register
+ .text          0x0000000010104ac0      0x140 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                0x0000000010104b84                alt_io_redirect
+ .text          0x0000000010104c00        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .text          0x0000000010104c00        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .text          0x0000000010104c00        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .text          0x0000000010104c00      0x254 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_open.o)
+                0x0000000010104d00                open
+ .text          0x0000000010104e54      0x1a4 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_tick.o)
+                0x0000000010104e54                alt_alarm_stop
+                0x0000000010104ef0                alt_tick
+ .text          0x0000000010104ff8       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                0x0000000010104ff8                altera_nios2_gen2_irq_init
+ .text          0x000000001010501c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .text          0x000000001010501c       0x90 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_find_dev.o)
+                0x000000001010501c                alt_find_dev
+ .text          0x00000000101050ac      0x108 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_find_file.o)
+                0x00000000101050ac                alt_find_file
+ .text          0x00000000101051b4       0xa4 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_get_fd.o)
+                0x00000000101051b4                alt_get_fd
+ .text          0x0000000010105258       0x90 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                0x0000000010105258                alt_icache_flush
+ .text          0x00000000101052e8       0x9c C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x00000000101052e8                alt_exception_cause_generated_bad_addr
+ .text          0x0000000010105384        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .text.atexit   0x0000000010105384       0x14 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+                0x0000000010105384                atexit
+ .text          0x0000000010105398        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .text.exit     0x0000000010105398       0x38 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+                0x0000000010105398                exit
+ .text          0x00000000101053d0        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .text.memcmp   0x00000000101053d0       0x7c c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+                0x00000000101053d0                memcmp
+ .text          0x000000001010544c        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .text.__register_exitproc
+                0x000000001010544c      0x118 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+                0x000000001010544c                __register_exitproc
+ .text          0x0000000010105564        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x0000000010105564      0x180 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+                0x0000000010105564                __call_exitprocs
+ .text          0x00000000101056e4       0x34 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_exit.o)
+                0x00000000101056e4                _exit
+ *(.gnu.warning.*)
+ *(.fini)
+                [!provide]                        PROVIDE (__etext, ABSOLUTE (.))
+                [!provide]                        PROVIDE (_etext, ABSOLUTE (.))
+                [!provide]                        PROVIDE (etext, ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x0000000010105718                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__preinit_array_start, ABSOLUTE (.))
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__init_array_start, ABSOLUTE (.))
+ *(.init_array)
+                [!provide]                        PROVIDE (__init_array_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__fini_array_start, ABSOLUTE (.))
+ *(.fini_array)
+                [!provide]                        PROVIDE (__fini_array_end, ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                0x0000000010105718                PROVIDE (__CTOR_LIST__, ABSOLUTE (.))
+ *(.ctors)
+ *(SORT(.ctors.*))
+                0x0000000010105718                PROVIDE (__CTOR_END__, ABSOLUTE (.))
+                0x0000000010105718                PROVIDE (__DTOR_LIST__, ABSOLUTE (.))
+ *(.dtors)
+ *(SORT(.dtors.*))
+                0x0000000010105718                PROVIDE (__DTOR_END__, ABSOLUTE (.))
+ *(.jcr)
+                0x0000000010105718                . = ALIGN (0x4)
+
+.rodata         0x0000000010105718       0x50
+                0x0000000010105718                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
+                0x0000000010105718                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x0000000010105718       0x14 obj/default/hello_world.o
+ .rodata.str1.4
+                0x000000001010572c        0x2 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-puts.o)
+ *fill*         0x000000001010572e        0x2 
+ .rodata.str1.4
+                0x0000000010105730        0x4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+                                          0x2 (size before relaxing)
+ .rodata        0x0000000010105734        0xa C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_dev.o)
+ *fill*         0x000000001010573e        0x2 
+ .rodata        0x0000000010105740       0x11 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_main.o)
+ *fill*         0x0000000010105751        0x3 
+ .rodata        0x0000000010105754       0x11 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_sys_init.o)
+ *(.rodata1)
+                0x0000000010105768                . = ALIGN (0x4)
+ *fill*         0x0000000010105765        0x3 
+                0x0000000010105768                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
+                0x0000000010105718                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
+
+.rwdata         0x0000000010105768     0x1a6c load address 0x00000000101071d4
+                0x0000000010105768                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
+                0x0000000010105768                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000010105768        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp//obj/HAL/src/crt0.o
+ .data          0x0000000010105768        0x0 obj/default/hello_world.o
+ .data          0x0000000010105768        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-puts.o)
+ .data          0x0000000010105768        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .data          0x0000000010105768        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-findfp.o)
+ .data          0x0000000010105768        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fvwrite.o)
+ .data          0x0000000010105768        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fwalk.o)
+ .data          0x0000000010105768        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .data.impure_data
+                0x0000000010105768      0x424 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .data          0x0000000010105b8c        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-mallocr.o)
+ .data.__malloc_av_
+                0x0000000010105b8c      0x408 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-mallocr.o)
+                0x0000000010105b8c                __malloc_av_
+ .data          0x0000000010105f94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memchr.o)
+ .data          0x0000000010105f94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .data          0x0000000010105f94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memmove.o)
+ .data          0x0000000010105f94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+ .data          0x0000000010105f94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-reallocr.o)
+ .data          0x0000000010105f94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-sbrkr.o)
+ .data          0x0000000010105f94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-stdio.o)
+ .data          0x0000000010105f94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-writer.o)
+ .data          0x0000000010105f94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-wsetup.o)
+ .data          0x0000000010105f94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(closer.o)
+ .data          0x0000000010105f94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fclose.o)
+ .data          0x0000000010105f94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fflush.o)
+ .data          0x0000000010105f94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-freer.o)
+ .data          0x0000000010105f94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .data          0x0000000010105f94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-lseekr.o)
+ .data          0x0000000010105f94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-makebuf.o)
+ .data          0x0000000010105f94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-readr.o)
+ .data          0x0000000010105f94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fstatr.o)
+ .data          0x0000000010105f94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-isattyr.o)
+ .data          0x0000000010105f94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .data          0x0000000010105f94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_close.o)
+ .data          0x0000000010105f94      0x1a8 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_dev.o)
+                0x0000000010105f94                alt_dev_null
+                0x0000000010105fbc                alt_fd_list
+ .data          0x000000001010613c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_errno.o)
+ .data          0x000000001010613c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_fstat.o)
+ .data          0x000000001010613c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_isatty.o)
+ .data          0x000000001010613c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_load.o)
+ .data          0x000000001010613c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_lseek.o)
+ .data          0x000000001010613c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_main.o)
+ .data          0x000000001010613c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_malloc_lock.o)
+ .data          0x000000001010613c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_read.o)
+ .data          0x000000001010613c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .data          0x000000001010613c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_sbrk.o)
+ .data          0x000000001010613c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_write.o)
+ .data          0x000000001010613c     0x1060 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .data          0x000000001010719c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .data          0x000000001010719c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .data          0x000000001010719c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .data          0x000000001010719c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .data          0x000000001010719c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .data          0x000000001010719c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .data          0x000000001010719c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x000000001010719c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .data          0x000000001010719c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .data          0x000000001010719c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .data          0x000000001010719c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x000000001010719c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_iic.o)
+ .data          0x000000001010719c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .data          0x000000001010719c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .data          0x000000001010719c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .data          0x000000001010719c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .data          0x000000001010719c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .data          0x000000001010719c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_open.o)
+ .data          0x000000001010719c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_tick.o)
+ .data          0x000000001010719c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .data          0x000000001010719c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .data          0x000000001010719c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .data          0x000000001010719c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_find_file.o)
+ .data          0x000000001010719c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .data          0x000000001010719c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .data          0x000000001010719c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .data          0x000000001010719c        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .data          0x000000001010719c        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .data          0x000000001010719c        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .data          0x000000001010719c        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .data          0x000000001010719c        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .data          0x000000001010719c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_exit.o)
+                0x000000001010f19c                _gp = ABSOLUTE ((. + 0x8000))
+                [!provide]                        PROVIDE (gp, _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata._global_impure_ptr
+                0x000000001010719c        0x4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+                0x000000001010719c                _global_impure_ptr
+ .sdata._impure_ptr
+                0x00000000101071a0        0x4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+                0x00000000101071a0                _impure_ptr
+ .sdata.__malloc_sbrk_base
+                0x00000000101071a4        0x4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-mallocr.o)
+                0x00000000101071a4                __malloc_sbrk_base
+ .sdata.__malloc_trim_threshold
+                0x00000000101071a8        0x4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-mallocr.o)
+                0x00000000101071a8                __malloc_trim_threshold
+ .sdata         0x00000000101071ac       0x14 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_dev.o)
+                0x00000000101071ac                alt_fs_list
+                0x00000000101071b4                alt_dev_list
+                0x00000000101071bc                alt_max_fd
+ .sdata         0x00000000101071c0        0x4 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_errno.o)
+                0x00000000101071c0                alt_errno
+ .sdata         0x00000000101071c4        0x4 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_sbrk.o)
+ .sdata         0x00000000101071c8        0x4 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x00000000101071c8                alt_priority_mask
+ .sdata         0x00000000101071cc        0x8 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_tick.o)
+                0x00000000101071cc                alt_alarm_list
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x00000000101071d4                . = ALIGN (0x4)
+                0x00000000101071d4                _edata = ABSOLUTE (.)
+                [!provide]                        PROVIDE (edata, ABSOLUTE (.))
+                0x00000000101071d4                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
+                0x00000000101071d4                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
+
+.bss            0x0000000010108c40      0x154
+                0x0000000010108c40                __bss_start = ABSOLUTE (.)
+                [!provide]                        PROVIDE (__sbss_start, ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_start, ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss.__malloc_max_total_mem
+                0x0000000010108c40        0x4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-mallocr.o)
+                0x0000000010108c40                __malloc_max_total_mem
+ .sbss.__malloc_max_sbrked_mem
+                0x0000000010108c44        0x4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-mallocr.o)
+                0x0000000010108c44                __malloc_max_sbrked_mem
+ .sbss.__malloc_top_pad
+                0x0000000010108c48        0x4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-mallocr.o)
+                0x0000000010108c48                __malloc_top_pad
+ .sbss          0x0000000010108c4c        0x4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+                0x0000000010108c4c                errno
+ .sbss          0x0000000010108c50        0xc C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_main.o)
+                0x0000000010108c50                alt_argc
+                0x0000000010108c54                alt_argv
+                0x0000000010108c58                alt_envp
+ .sbss          0x0000000010108c5c        0x4 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x0000000010108c5c                alt_irq_active
+ .sbss          0x0000000010108c60        0x8 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_tick.o)
+                0x0000000010108c60                _alt_tick_rate
+                0x0000000010108c64                _alt_nticks
+ .sbss          0x0000000010108c68        0x4 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x0000000010108c68                alt_instruction_exception_handler
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                [!provide]                        PROVIDE (__sbss_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_end, ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000010108c6c        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp//obj/HAL/src/crt0.o
+ .bss           0x0000000010108c6c        0x0 obj/default/hello_world.o
+ .bss           0x0000000010108c6c        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-puts.o)
+ .bss           0x0000000010108c6c        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .bss           0x0000000010108c6c        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-findfp.o)
+ .bss           0x0000000010108c6c        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fvwrite.o)
+ .bss           0x0000000010108c6c        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fwalk.o)
+ .bss           0x0000000010108c6c        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .bss           0x0000000010108c6c        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-mallocr.o)
+ .bss.__malloc_current_mallinfo
+                0x0000000010108c6c       0x28 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-mallocr.o)
+                0x0000000010108c6c                __malloc_current_mallinfo
+ .bss           0x0000000010108c94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memchr.o)
+ .bss           0x0000000010108c94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .bss           0x0000000010108c94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memmove.o)
+ .bss           0x0000000010108c94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+ .bss           0x0000000010108c94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-reallocr.o)
+ .bss           0x0000000010108c94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-sbrkr.o)
+ .bss           0x0000000010108c94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-stdio.o)
+ .bss           0x0000000010108c94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-writer.o)
+ .bss           0x0000000010108c94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-wsetup.o)
+ .bss           0x0000000010108c94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(closer.o)
+ .bss           0x0000000010108c94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fclose.o)
+ .bss           0x0000000010108c94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fflush.o)
+ .bss           0x0000000010108c94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-freer.o)
+ .bss           0x0000000010108c94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .bss           0x0000000010108c94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-lseekr.o)
+ .bss           0x0000000010108c94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-makebuf.o)
+ .bss           0x0000000010108c94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-readr.o)
+ .bss           0x0000000010108c94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fstatr.o)
+ .bss           0x0000000010108c94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-isattyr.o)
+ .bss           0x0000000010108c94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_close.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_dev.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_errno.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_fstat.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_isatty.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_load.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_lseek.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_main.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_malloc_lock.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_read.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_sbrk.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_write.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_iic.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_open.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_tick.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_find_file.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .bss           0x0000000010108c94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .bss           0x0000000010108c94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .bss           0x0000000010108c94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .bss           0x0000000010108c94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .bss           0x0000000010108c94        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .bss           0x0000000010108c94        0x0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_exit.o)
+ *(COMMON)
+ COMMON         0x0000000010108c94      0x100 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                0x0000000010108c94                alt_irq
+                0x0000000010108d94                . = ALIGN (0x4)
+                0x0000000010108d94                __bss_end = ABSOLUTE (.)
+
+.onchip_memory2_0
+                0x0000000010108d94        0x0
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory2_0_start, ABSOLUTE (.))
+ *(.onchip_memory2_0 .onchip_memory2_0. onchip_memory2_0.*)
+                0x0000000010108d94                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory2_0_end, ABSOLUTE (.))
+                0x0000000010108d94                _end = ABSOLUTE (.)
+                0x0000000010108d94                end = ABSOLUTE (.)
+                0x0000000010108d94                __alt_stack_base = ABSOLUTE (.)
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory2_0_load_addr, LOADADDR (.onchip_memory2_0))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x23
+ *(.comment)
+ .comment       0x0000000000000000       0x23 obj/default/hello_world.o
+                                         0x24 (size before relaxing)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-puts.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-findfp.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fvwrite.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fwalk.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-mallocr.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memchr.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memmove.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-reallocr.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-sbrkr.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-stdio.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-writer.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-wsetup.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(closer.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fclose.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fflush.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-freer.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-lseekr.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-makebuf.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-readr.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fstatr.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-isattyr.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_close.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_dev.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_errno.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_fstat.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_isatty.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_load.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_lseek.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_main.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_malloc_lock.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_read.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_sbrk.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_write.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_iic.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_open.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_tick.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_find_file.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .comment       0x0000000000000023       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0xa10
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x0000000000000028       0x20 obj/default/hello_world.o
+ .debug_aranges
+                0x0000000000000048       0x28 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-puts.o)
+ .debug_aranges
+                0x0000000000000070       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_aranges
+                0x0000000000000090       0x68 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-findfp.o)
+ .debug_aranges
+                0x00000000000000f8       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fvwrite.o)
+ .debug_aranges
+                0x0000000000000118       0x28 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fwalk.o)
+ .debug_aranges
+                0x0000000000000140       0x18 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .debug_aranges
+                0x0000000000000158       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-mallocr.o)
+ .debug_aranges
+                0x0000000000000178       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memchr.o)
+ .debug_aranges
+                0x0000000000000198       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_aranges
+                0x00000000000001b8       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memmove.o)
+ .debug_aranges
+                0x00000000000001d8       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+ .debug_aranges
+                0x00000000000001f8       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-reallocr.o)
+ .debug_aranges
+                0x0000000000000218       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-sbrkr.o)
+ .debug_aranges
+                0x0000000000000238       0x40 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-stdio.o)
+ .debug_aranges
+                0x0000000000000278       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-writer.o)
+ .debug_aranges
+                0x0000000000000298       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-wsetup.o)
+ .debug_aranges
+                0x00000000000002b8       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(closer.o)
+ .debug_aranges
+                0x00000000000002d8       0x28 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fclose.o)
+ .debug_aranges
+                0x0000000000000300       0x30 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fflush.o)
+ .debug_aranges
+                0x0000000000000330       0x28 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-freer.o)
+ .debug_aranges
+                0x0000000000000358       0x18 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .debug_aranges
+                0x0000000000000370       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-lseekr.o)
+ .debug_aranges
+                0x0000000000000390       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-makebuf.o)
+ .debug_aranges
+                0x00000000000003b0       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-readr.o)
+ .debug_aranges
+                0x00000000000003d0       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fstatr.o)
+ .debug_aranges
+                0x00000000000003f0       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-isattyr.o)
+ .debug_aranges
+                0x0000000000000410       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .debug_aranges
+                0x0000000000000430       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_aranges
+                0x0000000000000450       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_aranges
+                0x0000000000000470       0x18 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_aranges
+                0x0000000000000488       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_fstat.o)
+ .debug_aranges
+                0x00000000000004a8       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_isatty.o)
+ .debug_aranges
+                0x00000000000004c8       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x00000000000004e8       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_lseek.o)
+ .debug_aranges
+                0x0000000000000508       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x0000000000000528       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_malloc_lock.o)
+ .debug_aranges
+                0x0000000000000548       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_read.o)
+ .debug_aranges
+                0x0000000000000568       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_aranges
+                0x0000000000000588       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_sbrk.o)
+ .debug_aranges
+                0x00000000000005a8       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_aranges
+                0x00000000000005c8       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x00000000000005e8       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_aranges
+                0x0000000000000608       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_aranges
+                0x0000000000000628       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_aranges
+                0x0000000000000648       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_aranges
+                0x0000000000000668       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_aranges
+                0x0000000000000688       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_aranges
+                0x00000000000006a8       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x00000000000006c8       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_aranges
+                0x00000000000006e8       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_aranges
+                0x0000000000000708       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_aranges
+                0x0000000000000728       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x0000000000000748       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_aranges
+                0x0000000000000768       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_aranges
+                0x0000000000000788       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_aranges
+                0x00000000000007a8       0x30 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_aranges
+                0x00000000000007d8       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_aranges
+                0x00000000000007f8       0x18 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_aranges
+                0x0000000000000810       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_aranges
+                0x0000000000000830       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_aranges
+                0x0000000000000850       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_aranges
+                0x0000000000000870       0x38 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_aranges
+                0x00000000000008a8       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_aranges
+                0x00000000000008c8       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_aranges
+                0x00000000000008e8       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_aranges
+                0x0000000000000908       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_aranges
+                0x0000000000000928       0x28 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_aranges
+                0x0000000000000950       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_aranges
+                0x0000000000000970       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_aranges
+                0x0000000000000990       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_aranges
+                0x00000000000009b0       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_aranges
+                0x00000000000009d0       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_aranges
+                0x00000000000009f0       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x16289
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x6d C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x000000000000006d       0x96 obj/default/hello_world.o
+ .debug_info    0x0000000000000103      0xa38 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-puts.o)
+ .debug_info    0x0000000000000b3b       0xe2 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_info    0x0000000000000c1d      0xd37 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-findfp.o)
+ .debug_info    0x0000000000001954      0xbb8 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fvwrite.o)
+ .debug_info    0x000000000000250c      0x9b0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fwalk.o)
+ .debug_info    0x0000000000002ebc      0x8a1 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .debug_info    0x000000000000375d      0xd57 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-mallocr.o)
+ .debug_info    0x00000000000044b4      0x132 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memchr.o)
+ .debug_info    0x00000000000045e6      0x144 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_info    0x000000000000472a      0x13a c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memmove.o)
+ .debug_info    0x0000000000004864      0x121 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+ .debug_info    0x0000000000004985      0xc6b c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-reallocr.o)
+ .debug_info    0x00000000000055f0      0x900 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-sbrkr.o)
+ .debug_info    0x0000000000005ef0      0xb32 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-stdio.o)
+ .debug_info    0x0000000000006a22      0x928 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-writer.o)
+ .debug_info    0x000000000000734a      0x936 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-wsetup.o)
+ .debug_info    0x0000000000007c80      0x8df c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(closer.o)
+ .debug_info    0x000000000000855f      0xa23 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fclose.o)
+ .debug_info    0x0000000000008f82      0xa93 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fflush.o)
+ .debug_info    0x0000000000009a15      0xbf7 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-freer.o)
+ .debug_info    0x000000000000a60c       0x8a c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .debug_info    0x000000000000a696      0x90b c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-lseekr.o)
+ .debug_info    0x000000000000afa1      0xad8 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-makebuf.o)
+ .debug_info    0x000000000000ba79      0x921 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-readr.o)
+ .debug_info    0x000000000000c39a      0xa5d c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fstatr.o)
+ .debug_info    0x000000000000cdf7      0x8df c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-isattyr.o)
+ .debug_info    0x000000000000d6d6      0x2c6 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .debug_info    0x000000000000d99c      0x321 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_info    0x000000000000dcbd      0x49c C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_info    0x000000000000e159       0xa6 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_info    0x000000000000e1ff      0x488 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_fstat.o)
+ .debug_info    0x000000000000e687      0x48b C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_isatty.o)
+ .debug_info    0x000000000000eb12      0x145 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_info    0x000000000000ec57      0x352 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_lseek.o)
+ .debug_info    0x000000000000efa9      0x131 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_info    0x000000000000f0da      0x8b6 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_malloc_lock.o)
+ .debug_info    0x000000000000f990      0x4b0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_read.o)
+ .debug_info    0x000000000000fe40      0x2b0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_info    0x00000000000100f0      0x1ac C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_sbrk.o)
+ .debug_info    0x000000000001029c      0x4b7 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_info    0x0000000000010753      0x4c3 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x0000000000010c16      0x52e C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_info    0x0000000000011144      0x3a0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_info    0x00000000000114e4      0x280 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_info    0x0000000000011764      0x345 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_info    0x0000000000011aa9      0x340 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_info    0x0000000000011de9      0x2cc C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_info    0x00000000000120b5       0xa5 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x000000000001215a      0x1a9 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_info    0x0000000000012303       0x83 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_info    0x0000000000012386       0x83 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_info    0x0000000000012409       0x92 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x000000000001249b      0x350 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_info    0x00000000000127eb      0x1ef C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_info    0x00000000000129da      0x4a5 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_info    0x0000000000012e7f       0x76 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_info    0x0000000000012ef5      0x187 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_info    0x000000000001307c       0x88 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_info    0x0000000000013104      0x3bb C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_info    0x00000000000134bf      0x299 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_info    0x0000000000013758       0x92 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_info    0x00000000000137ea       0x7c C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_info    0x0000000000013866      0x2e9 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_info    0x0000000000013b4f      0x2e6 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_info    0x0000000000013e35      0x310 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_info    0x0000000000014145       0xdc C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_info    0x0000000000014221      0x1e7 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_info    0x0000000000014408       0xfe c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_info    0x0000000000014506      0x8e4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_info    0x0000000000014dea      0x11a c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_info    0x0000000000014f04      0x934 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_info    0x0000000000015838      0x965 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_info    0x000000000001619d       0xec C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_abbrev   0x0000000000000000     0x5eea
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x12 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x0000000000000012       0x42 obj/default/hello_world.o
+ .debug_abbrev  0x0000000000000054      0x249 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-puts.o)
+ .debug_abbrev  0x000000000000029d       0x90 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_abbrev  0x000000000000032d      0x391 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-findfp.o)
+ .debug_abbrev  0x00000000000006be      0x228 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fvwrite.o)
+ .debug_abbrev  0x00000000000008e6      0x1d1 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fwalk.o)
+ .debug_abbrev  0x0000000000000ab7      0x18f c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .debug_abbrev  0x0000000000000c46      0x29d c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-mallocr.o)
+ .debug_abbrev  0x0000000000000ee3       0xab c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memchr.o)
+ .debug_abbrev  0x0000000000000f8e       0xa3 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_abbrev  0x0000000000001031       0x9c c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memmove.o)
+ .debug_abbrev  0x00000000000010cd       0xae c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+ .debug_abbrev  0x000000000000117b      0x231 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-reallocr.o)
+ .debug_abbrev  0x00000000000013ac      0x20a c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-sbrkr.o)
+ .debug_abbrev  0x00000000000015b6      0x239 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-stdio.o)
+ .debug_abbrev  0x00000000000017ef      0x1eb c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-writer.o)
+ .debug_abbrev  0x00000000000019da      0x218 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-wsetup.o)
+ .debug_abbrev  0x0000000000001bf2      0x1e6 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(closer.o)
+ .debug_abbrev  0x0000000000001dd8      0x2a2 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fclose.o)
+ .debug_abbrev  0x000000000000207a      0x2a0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fflush.o)
+ .debug_abbrev  0x000000000000231a      0x264 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-freer.o)
+ .debug_abbrev  0x000000000000257e       0x37 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .debug_abbrev  0x00000000000025b5      0x1f5 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-lseekr.o)
+ .debug_abbrev  0x00000000000027aa      0x20f c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-makebuf.o)
+ .debug_abbrev  0x00000000000029b9      0x1e6 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-readr.o)
+ .debug_abbrev  0x0000000000002b9f      0x1f5 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fstatr.o)
+ .debug_abbrev  0x0000000000002d94      0x1e6 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-isattyr.o)
+ .debug_abbrev  0x0000000000002f7a      0x10e c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .debug_abbrev  0x0000000000003088      0x11f C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_abbrev  0x00000000000031a7       0xd9 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_abbrev  0x0000000000003280       0x5a C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_abbrev  0x00000000000032da      0x11f C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_fstat.o)
+ .debug_abbrev  0x00000000000033f9      0x11f C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_isatty.o)
+ .debug_abbrev  0x0000000000003518       0x9f C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x00000000000035b7      0x11f C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_lseek.o)
+ .debug_abbrev  0x00000000000036d6       0xba C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x0000000000003790      0x1b4 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_malloc_lock.o)
+ .debug_abbrev  0x0000000000003944      0x12e C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_read.o)
+ .debug_abbrev  0x0000000000003a72       0xde C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_abbrev  0x0000000000003b50      0x112 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_sbrk.o)
+ .debug_abbrev  0x0000000000003c62      0x133 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_abbrev  0x0000000000003d95      0x187 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x0000000000003f1c      0x127 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_abbrev  0x0000000000004043      0x19e C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_abbrev  0x00000000000041e1      0x111 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_abbrev  0x00000000000042f2      0x1aa C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_abbrev  0x000000000000449c      0x1a8 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_abbrev  0x0000000000004644      0x162 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_abbrev  0x00000000000047a6       0x5a C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x0000000000004800      0x114 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_abbrev  0x0000000000004914       0x79 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_abbrev  0x000000000000498d       0x79 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_abbrev  0x0000000000004a06       0x42 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x0000000000004a48      0x163 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_abbrev  0x0000000000004bab      0x169 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_abbrev  0x0000000000004d14      0x114 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_abbrev  0x0000000000004e28       0x12 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_abbrev  0x0000000000004e3a      0x122 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_abbrev  0x0000000000004f5c       0x40 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_abbrev  0x0000000000004f9c      0x148 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_abbrev  0x00000000000050e4      0x15a C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_abbrev  0x000000000000523e       0x42 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_abbrev  0x0000000000005280       0x12 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_abbrev  0x0000000000005292       0xf0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_abbrev  0x0000000000005382       0xf0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_abbrev  0x0000000000005472      0x10d C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_abbrev  0x000000000000557f       0x8c C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_abbrev  0x000000000000560b       0xdc C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_abbrev  0x00000000000056e7       0xaa c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_abbrev  0x0000000000005791      0x1e5 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_abbrev  0x0000000000005976       0x7f c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_abbrev  0x00000000000059f5      0x21e c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_abbrev  0x0000000000005c13      0x22e c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_abbrev  0x0000000000005e41       0xa9 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_line     0x0000000000000000     0x67ea
+ *(.debug_line)
+ .debug_line    0x0000000000000000       0x72 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x0000000000000072       0x47 obj/default/hello_world.o
+ .debug_line    0x00000000000000b9      0x245 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-puts.o)
+ .debug_line    0x00000000000002fe      0x16c c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_line    0x000000000000046a      0x36f c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-findfp.o)
+ .debug_line    0x00000000000007d9      0x342 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fvwrite.o)
+ .debug_line    0x0000000000000b1b      0x237 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fwalk.o)
+ .debug_line    0x0000000000000d52      0x15d c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .debug_line    0x0000000000000eaf      0x3f9 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-mallocr.o)
+ .debug_line    0x00000000000012a8      0x18a c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memchr.o)
+ .debug_line    0x0000000000001432      0x189 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_line    0x00000000000015bb      0x18a c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memmove.o)
+ .debug_line    0x0000000000001745      0x18c c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+ .debug_line    0x00000000000018d1      0x2f2 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-reallocr.o)
+ .debug_line    0x0000000000001bc3      0x1e6 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-sbrkr.o)
+ .debug_line    0x0000000000001da9      0x267 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-stdio.o)
+ .debug_line    0x0000000000002010      0x1f3 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-writer.o)
+ .debug_line    0x0000000000002203      0x263 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-wsetup.o)
+ .debug_line    0x0000000000002466      0x1f3 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(closer.o)
+ .debug_line    0x0000000000002659      0x236 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fclose.o)
+ .debug_line    0x000000000000288f      0x2e7 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fflush.o)
+ .debug_line    0x0000000000002b76      0x2f4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-freer.o)
+ .debug_line    0x0000000000002e6a       0x5c c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .debug_line    0x0000000000002ec6      0x1f3 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-lseekr.o)
+ .debug_line    0x00000000000030b9      0x271 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-makebuf.o)
+ .debug_line    0x000000000000332a      0x1f2 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-readr.o)
+ .debug_line    0x000000000000351c      0x1fc c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fstatr.o)
+ .debug_line    0x0000000000003718      0x1f4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-isattyr.o)
+ .debug_line    0x000000000000390c      0x102 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .debug_line    0x0000000000003a0e      0x165 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_line    0x0000000000003b73       0xf8 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_line    0x0000000000003c6b       0x51 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_line    0x0000000000003cbc      0x15e C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_fstat.o)
+ .debug_line    0x0000000000003e1a      0x162 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_isatty.o)
+ .debug_line    0x0000000000003f7c       0x8e C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_line    0x000000000000400a      0x163 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_lseek.o)
+ .debug_line    0x000000000000416d       0xa4 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_line    0x0000000000004211      0x122 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_malloc_lock.o)
+ .debug_line    0x0000000000004333      0x1dc C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_read.o)
+ .debug_line    0x000000000000450f       0xae C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_line    0x00000000000045bd       0xf3 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_sbrk.o)
+ .debug_line    0x00000000000046b0      0x1db C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_line    0x000000000000488b      0x136 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x00000000000049c1      0x12f C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_line    0x0000000000004af0      0x18b C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_line    0x0000000000004c7b      0x131 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_line    0x0000000000004dac      0x171 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_line    0x0000000000004f1d      0x170 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_line    0x000000000000508d       0xf9 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_line    0x0000000000005186       0x61 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x00000000000051e7       0xcf C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_line    0x00000000000052b6       0x59 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_line    0x000000000000530f       0x59 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_line    0x0000000000005368       0x50 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x00000000000053b8       0xeb C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_line    0x00000000000054a3       0xdb C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_line    0x000000000000557e      0x133 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_line    0x00000000000056b1       0x6b C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_line    0x000000000000571c       0xaa C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_line    0x00000000000057c6       0x50 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_line    0x0000000000005816      0x128 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_line    0x000000000000593e       0xff C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_line    0x0000000000005a3d       0x51 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_line    0x0000000000005a8e       0xb3 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_line    0x0000000000005b41       0xb5 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_line    0x0000000000005bf6       0xd1 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_line    0x0000000000005cc7       0xd4 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_line    0x0000000000005d9b       0x81 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_line    0x0000000000005e1c       0xba C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_line    0x0000000000005ed6       0xe4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_line    0x0000000000005fba      0x1f9 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_line    0x00000000000061b3      0x173 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_line    0x0000000000006326      0x21c c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_line    0x0000000000006542      0x237 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_line    0x0000000000006779       0x71 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_frame    0x0000000000000000     0x1530
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x2c obj/default/hello_world.o
+ .debug_frame   0x000000000000002c       0x48 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-puts.o)
+ .debug_frame   0x0000000000000074       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_frame   0x0000000000000094      0x160 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-findfp.o)
+ .debug_frame   0x00000000000001f4       0x78 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fvwrite.o)
+ .debug_frame   0x000000000000026c       0x90 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fwalk.o)
+ .debug_frame   0x00000000000002fc       0x54 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-mallocr.o)
+ .debug_frame   0x0000000000000350       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memchr.o)
+ .debug_frame   0x0000000000000370       0x38 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_frame   0x00000000000003a8       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memmove.o)
+ .debug_frame   0x00000000000003c8       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+ .debug_frame   0x00000000000003e8       0x70 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-reallocr.o)
+ .debug_frame   0x0000000000000458       0x38 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-sbrkr.o)
+ .debug_frame   0x0000000000000490       0xb4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-stdio.o)
+ .debug_frame   0x0000000000000544       0x38 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-writer.o)
+ .debug_frame   0x000000000000057c       0x38 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-wsetup.o)
+ .debug_frame   0x00000000000005b4       0x38 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(closer.o)
+ .debug_frame   0x00000000000005ec       0x54 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fclose.o)
+ .debug_frame   0x0000000000000640       0x7c c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fflush.o)
+ .debug_frame   0x00000000000006bc       0x70 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-freer.o)
+ .debug_frame   0x000000000000072c       0x38 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-lseekr.o)
+ .debug_frame   0x0000000000000764       0x4c c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-makebuf.o)
+ .debug_frame   0x00000000000007b0       0x38 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-readr.o)
+ .debug_frame   0x00000000000007e8       0x38 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fstatr.o)
+ .debug_frame   0x0000000000000820       0x38 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-isattyr.o)
+ .debug_frame   0x0000000000000858       0x50 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .debug_frame   0x00000000000008a8       0x60 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_frame   0x0000000000000908       0x34 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_frame   0x000000000000093c       0x60 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_fstat.o)
+ .debug_frame   0x000000000000099c       0x60 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_isatty.o)
+ .debug_frame   0x00000000000009fc       0x5c C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_frame   0x0000000000000a58       0x60 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_lseek.o)
+ .debug_frame   0x0000000000000ab8       0x2c C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_frame   0x0000000000000ae4       0x58 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_malloc_lock.o)
+ .debug_frame   0x0000000000000b3c       0x60 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_read.o)
+ .debug_frame   0x0000000000000b9c       0x34 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_frame   0x0000000000000bd0       0x34 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_sbrk.o)
+ .debug_frame   0x0000000000000c04       0x60 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_frame   0x0000000000000c64       0x88 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x0000000000000cec       0xb0 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_frame   0x0000000000000d9c       0xa4 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_frame   0x0000000000000e40       0x34 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_frame   0x0000000000000e74       0x38 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_frame   0x0000000000000eac       0x38 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_frame   0x0000000000000ee4       0x34 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_frame   0x0000000000000f18       0x34 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x0000000000000f4c       0x60 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_frame   0x0000000000000fac       0x38 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_frame   0x0000000000000fe4       0x38 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_frame   0x000000000000101c       0x38 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x0000000000001054       0xa4 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_frame   0x00000000000010f8       0x38 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_frame   0x0000000000001130       0x60 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_frame   0x0000000000001190       0x38 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_frame   0x00000000000011c8       0x84 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_frame   0x000000000000124c       0x5c C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_frame   0x00000000000012a8       0x34 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_frame   0x00000000000012dc       0x38 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_frame   0x0000000000001314       0x38 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_frame   0x000000000000134c       0x34 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_frame   0x0000000000001380       0x34 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_frame   0x00000000000013b4       0x5c C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_frame   0x0000000000001410       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_frame   0x0000000000001430       0x28 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_frame   0x0000000000001458       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_frame   0x0000000000001478       0x38 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_frame   0x00000000000014b0       0x54 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x0000000000001504       0x2c C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_str      0x0000000000000000     0x2657
+ *(.debug_str)
+ .debug_str     0x0000000000000000       0xee obj/default/hello_world.o
+                                        0x12c (size before relaxing)
+ .debug_str     0x00000000000000ee      0x4df c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-puts.o)
+                                        0x602 (size before relaxing)
+ .debug_str     0x00000000000005cd       0xcb c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+                                        0x1dd (size before relaxing)
+ .debug_str     0x0000000000000698      0x143 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-findfp.o)
+                                        0x6b1 (size before relaxing)
+ .debug_str     0x00000000000007db       0x97 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fvwrite.o)
+                                        0x62d (size before relaxing)
+ .debug_str     0x0000000000000872       0x47 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fwalk.o)
+                                        0x5a0 (size before relaxing)
+ .debug_str     0x00000000000008b9       0xc8 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+                                        0x59b (size before relaxing)
+ .debug_str     0x0000000000000981      0x2ad c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-mallocr.o)
+                                        0x7a0 (size before relaxing)
+ .debug_str     0x0000000000000c2e       0x4f c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memchr.o)
+                                        0x1e4 (size before relaxing)
+ .debug_str     0x0000000000000c7d       0x61 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+                                        0x1f1 (size before relaxing)
+ .debug_str     0x0000000000000cde       0x44 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memmove.o)
+                                        0x1fd (size before relaxing)
+ .debug_str     0x0000000000000d22       0x41 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+                                        0x1de (size before relaxing)
+ .debug_str     0x0000000000000d63       0x4e c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-reallocr.o)
+                                        0x67c (size before relaxing)
+ .debug_str     0x0000000000000db1       0x4c c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-sbrkr.o)
+                                        0x591 (size before relaxing)
+ .debug_str     0x0000000000000dfd       0x98 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-stdio.o)
+                                        0x5ef (size before relaxing)
+ .debug_str     0x0000000000000e95       0x39 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-writer.o)
+                                        0x595 (size before relaxing)
+ .debug_str     0x0000000000000ece       0x46 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-wsetup.o)
+                                        0x5ba (size before relaxing)
+ .debug_str     0x0000000000000f14       0x39 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(closer.o)
+                                        0x585 (size before relaxing)
+ .debug_str     0x0000000000000f4d       0x5a c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fclose.o)
+                                        0x5e8 (size before relaxing)
+ .debug_str     0x0000000000000fa7       0x51 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fflush.o)
+                                        0x5fb (size before relaxing)
+ .debug_str     0x0000000000000ff8       0x34 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-freer.o)
+                                        0x6ea (size before relaxing)
+ .debug_str     0x000000000000102c       0x3c c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+                                        0x1c3 (size before relaxing)
+ .debug_str     0x0000000000001068       0x3f c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-lseekr.o)
+                                        0x58c (size before relaxing)
+ .debug_str     0x00000000000010a7      0x121 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-makebuf.o)
+                                        0x69d (size before relaxing)
+ .debug_str     0x00000000000011c8       0x38 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-readr.o)
+                                        0x592 (size before relaxing)
+ .debug_str     0x0000000000001200       0x45 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fstatr.o)
+                                        0x671 (size before relaxing)
+ .debug_str     0x0000000000001245       0x41 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-isattyr.o)
+                                        0x588 (size before relaxing)
+ .debug_str     0x0000000000001286      0x16d c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+                                        0x1b8 (size before relaxing)
+ .debug_str     0x00000000000013f3       0xea C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_close.o)
+                                        0x207 (size before relaxing)
+ .debug_str     0x00000000000014dd       0x50 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_dev.o)
+                                        0x301 (size before relaxing)
+ .debug_str     0x000000000000152d       0x14 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_errno.o)
+                                        0x141 (size before relaxing)
+ .debug_str     0x0000000000001541       0x14 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_fstat.o)
+                                        0x2e8 (size before relaxing)
+ .debug_str     0x0000000000001555       0x15 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_isatty.o)
+                                        0x2f0 (size before relaxing)
+ .debug_str     0x000000000000156a       0xf1 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_load.o)
+                                        0x20e (size before relaxing)
+ .debug_str     0x000000000000165b       0x14 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_lseek.o)
+                                        0x20d (size before relaxing)
+ .debug_str     0x000000000000166f       0x44 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_main.o)
+                                        0x199 (size before relaxing)
+ .debug_str     0x00000000000016b3       0x1a C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_malloc_lock.o)
+                                        0x50b (size before relaxing)
+ .debug_str     0x00000000000016cd       0x13 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_read.o)
+                                        0x2f3 (size before relaxing)
+ .debug_str     0x00000000000016e0       0x28 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_release_fd.o)
+                                        0x1cf (size before relaxing)
+ .debug_str     0x0000000000001708       0x98 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_sbrk.o)
+                                        0x1d0 (size before relaxing)
+ .debug_str     0x00000000000017a0       0x14 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_write.o)
+                                        0x2f4 (size before relaxing)
+ .debug_str     0x00000000000017b4      0x155 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_sys_init.o)
+                                        0x354 (size before relaxing)
+ .debug_str     0x0000000000001909       0xb2 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                                        0x3a0 (size before relaxing)
+ .debug_str     0x00000000000019bb       0xd1 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+                                        0x334 (size before relaxing)
+ .debug_str     0x0000000000001a8c       0x4a C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                                        0x28f (size before relaxing)
+ .debug_str     0x0000000000001ad6       0x48 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                                        0x2e4 (size before relaxing)
+ .debug_str     0x0000000000001b1e       0x4a C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                                        0x2e5 (size before relaxing)
+ .debug_str     0x0000000000001b68       0x59 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_alarm_start.o)
+                                        0x27a (size before relaxing)
+ .debug_str     0x0000000000001bc1       0x34 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                                        0x151 (size before relaxing)
+ .debug_str     0x0000000000001bf5       0x34 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                                        0x1c8 (size before relaxing)
+ .debug_str     0x0000000000001c29       0x48 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                                         0xcc (size before relaxing)
+ .debug_str     0x0000000000001c71       0x4c C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                                         0xcb (size before relaxing)
+ .debug_str     0x0000000000001cbd       0x34 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                                        0x151 (size before relaxing)
+ .debug_str     0x0000000000001cf1       0xc4 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_iic.o)
+                                        0x23a (size before relaxing)
+ .debug_str     0x0000000000001db5       0x4c C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                                        0x1e4 (size before relaxing)
+ .debug_str     0x0000000000001e01       0x56 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                                        0x312 (size before relaxing)
+ .debug_str     0x0000000000001e57       0x3a C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                                        0x193 (size before relaxing)
+ .debug_str     0x0000000000001e91       0x17 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                                        0x136 (size before relaxing)
+ .debug_str     0x0000000000001ea8       0x29 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_open.o)
+                                        0x247 (size before relaxing)
+ .debug_str     0x0000000000001ed1       0x4a C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_tick.o)
+                                        0x24e (size before relaxing)
+ .debug_str     0x0000000000001f1b       0x3b C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                                        0x158 (size before relaxing)
+ .debug_str     0x0000000000001f56       0x24 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_find_dev.o)
+                                        0x1e8 (size before relaxing)
+ .debug_str     0x0000000000001f7a       0x26 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_find_file.o)
+                                        0x1f6 (size before relaxing)
+ .debug_str     0x0000000000001fa0       0x30 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_get_fd.o)
+                                        0x218 (size before relaxing)
+ .debug_str     0x0000000000001fd0       0x2c C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                                        0x157 (size before relaxing)
+ .debug_str     0x0000000000001ffc      0x48b C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                                        0x59c (size before relaxing)
+ .debug_str     0x0000000000002487       0x7e c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+                                        0x207 (size before relaxing)
+ .debug_str     0x0000000000002505       0x49 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+                                        0x5a4 (size before relaxing)
+ .debug_str     0x000000000000254e       0x41 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+                                        0x1ca (size before relaxing)
+ .debug_str     0x000000000000258f       0x3c c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+                                        0x5dc (size before relaxing)
+ .debug_str     0x00000000000025cb       0x62 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+                                        0x5c8 (size before relaxing)
+ .debug_str     0x000000000000262d       0x2a C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_exit.o)
+                                        0x14d (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x4a4c
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x117 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-puts.o)
+ .debug_loc     0x0000000000000117       0x47 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_loc     0x000000000000015e      0x2ee c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-findfp.o)
+ .debug_loc     0x000000000000044c      0x5d7 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fvwrite.o)
+ .debug_loc     0x0000000000000a23      0x25b c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fwalk.o)
+ .debug_loc     0x0000000000000c7e      0xb1b c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-mallocr.o)
+ .debug_loc     0x0000000000001799      0x1a1 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memchr.o)
+ .debug_loc     0x000000000000193a      0x266 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_loc     0x0000000000001ba0      0x308 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memmove.o)
+ .debug_loc     0x0000000000001ea8      0x1a6 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+ .debug_loc     0x000000000000204e      0xde4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-reallocr.o)
+ .debug_loc     0x0000000000002e32       0x58 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-sbrkr.o)
+ .debug_loc     0x0000000000002e8a      0x33a c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-stdio.o)
+ .debug_loc     0x00000000000031c4       0xb0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-writer.o)
+ .debug_loc     0x0000000000003274       0xa2 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-wsetup.o)
+ .debug_loc     0x0000000000003316       0x58 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(closer.o)
+ .debug_loc     0x000000000000336e      0x199 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fclose.o)
+ .debug_loc     0x0000000000003507      0x36f c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fflush.o)
+ .debug_loc     0x0000000000003876      0x4e7 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-freer.o)
+ .debug_loc     0x0000000000003d5d       0xb0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-lseekr.o)
+ .debug_loc     0x0000000000003e0d      0x122 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-makebuf.o)
+ .debug_loc     0x0000000000003f2f       0xb0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-readr.o)
+ .debug_loc     0x0000000000003fdf       0x84 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fstatr.o)
+ .debug_loc     0x0000000000004063       0x58 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-isattyr.o)
+ .debug_loc     0x00000000000040bb      0x4ce c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .debug_loc     0x0000000000004589       0x2c c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_loc     0x00000000000045b5       0x1e c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_loc     0x00000000000045d3      0x126 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_loc     0x00000000000046f9      0x185 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_loc     0x000000000000487e      0x1ce c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x0000000000000000       0x30
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x0000000000000000       0x30 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp//obj/HAL/src/crt0.o
+                0x0000000010120000                __alt_data_end = 0x10120000
+                0x0000000010120000                PROVIDE (__alt_stack_pointer, __alt_data_end)
+                [!provide]                        PROVIDE (__alt_stack_limit, __alt_stack_base)
+                0x0000000010108d94                PROVIDE (__alt_heap_start, end)
+                0x0000000010120000                PROVIDE (__alt_heap_limit, 0x10120000)
+OUTPUT(Temp.elf elf32-littlenios2)
+
+.debug_ranges   0x0000000000000000      0x680
+ .debug_ranges  0x0000000000000000       0x20 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp//obj/HAL/src/crt0.o
+ .debug_ranges  0x0000000000000020       0x30 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-puts.o)
+ .debug_ranges  0x0000000000000050       0x10 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_ranges  0x0000000000000060       0xc8 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-findfp.o)
+ .debug_ranges  0x0000000000000128       0x30 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fvwrite.o)
+ .debug_ranges  0x0000000000000158       0x18 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fwalk.o)
+ .debug_ranges  0x0000000000000170       0x48 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-mallocr.o)
+ .debug_ranges  0x00000000000001b8       0x10 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memchr.o)
+ .debug_ranges  0x00000000000001c8       0x10 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_ranges  0x00000000000001d8       0x10 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memmove.o)
+ .debug_ranges  0x00000000000001e8       0x10 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+ .debug_ranges  0x00000000000001f8      0x148 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-reallocr.o)
+ .debug_ranges  0x0000000000000340       0x10 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-sbrkr.o)
+ .debug_ranges  0x0000000000000350       0x30 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-stdio.o)
+ .debug_ranges  0x0000000000000380       0x10 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-writer.o)
+ .debug_ranges  0x0000000000000390       0x40 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-wsetup.o)
+ .debug_ranges  0x00000000000003d0       0x10 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(closer.o)
+ .debug_ranges  0x00000000000003e0       0x48 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fclose.o)
+ .debug_ranges  0x0000000000000428       0x58 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fflush.o)
+ .debug_ranges  0x0000000000000480       0x18 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-freer.o)
+ .debug_ranges  0x0000000000000498       0x10 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-lseekr.o)
+ .debug_ranges  0x00000000000004a8       0x10 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-makebuf.o)
+ .debug_ranges  0x00000000000004b8       0x10 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-readr.o)
+ .debug_ranges  0x00000000000004c8       0x10 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-fstatr.o)
+ .debug_ranges  0x00000000000004d8       0x10 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-isattyr.o)
+ .debug_ranges  0x00000000000004e8       0x60 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .debug_ranges  0x0000000000000548       0x30 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_ranges  0x0000000000000578       0x18 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_ranges  0x0000000000000590       0x28 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_ranges  0x00000000000005b8       0x10 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_ranges  0x00000000000005c8       0x30 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_ranges  0x00000000000005f8       0x18 C:/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/sw/Temp_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_ranges  0x0000000000000610       0x10 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_ranges  0x0000000000000620       0x10 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_ranges  0x0000000000000630       0x10 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_ranges  0x0000000000000640       0x10 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_ranges  0x0000000000000650       0x30 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)

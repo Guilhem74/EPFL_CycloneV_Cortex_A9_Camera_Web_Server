@@ -250,27 +250,16 @@ architecture rtl of DE1_SoC_top_level is
             hps_0_io_hps_io_gpio_inst_GPIO61         : inout std_logic                     := 'X';
             pll_0_sdram_clk                          : out   std_logic;
             reset_reset_n                            : in    std_logic                     := 'X';
-            sdram_controller_0_wire_addr             : out   std_logic_vector(12 downto 0);
-            sdram_controller_0_wire_ba               : out   std_logic_vector(1 downto 0);
-            sdram_controller_0_wire_cas_n            : out   std_logic;
-            sdram_controller_0_wire_cke              : out   std_logic;
-            sdram_controller_0_wire_cs_n             : out   std_logic;
-            sdram_controller_0_wire_dq               : inout std_logic_vector(15 downto 0) := (others => 'X');
-            sdram_controller_0_wire_dqm              : out   std_logic_vector(1 downto 0);
-            sdram_controller_0_wire_ras_n            : out   std_logic;
-            sdram_controller_0_wire_we_n             : out   std_logic;
-            nios_leds_external_connection_export     : out   std_logic_vector(3	downto 0);
-            hps_fpga_leds_external_connection_export : out   std_logic_vector(3 downto 0);
-				camera_component_0_conduit_end_buffer_saved   : out   std_logic_vector(1 downto 0);                     -- buffer_saved
-				camera_component_0_clock_sink_1_clk           : in    std_logic:= 'X';              -- clk
-				camera_component_0_conduit_end_data_camera    : in    std_logic_vector(11 downto 0) := (others => 'X'); -- data_camera
-				camera_component_0_conduit_end_debug          : out   std_logic_vector(31 downto 0);                    -- debug
-				camera_component_0_conduit_end_display_buffer : in    std_logic_vector(1 downto 0)  := (others => 'X'); -- display_buffer
-				camera_component_0_conduit_end_fval           : in    std_logic                     := 'X';             -- fval
-				camera_component_0_conduit_end_lval           : in    std_logic                     := 'X';             -- lval
-				i2c_0_conduit_end_scl                         : inout std_logic                     := 'X';             -- scl
-				i2c_0_conduit_end_sda                         : inout std_logic                     := 'X'              -- sda
-        );
+				sdram_controller_0_wire_addr      : out   std_logic_vector(12 downto 0);                    -- addr
+				sdram_controller_0_wire_ba        : out   std_logic_vector(1 downto 0);                     -- ba
+				sdram_controller_0_wire_cas_n     : out   std_logic;                                        -- cas_n
+				sdram_controller_0_wire_cke       : out   std_logic;                                        -- cke
+				sdram_controller_0_wire_cs_n      : out   std_logic;                                        -- cs_n
+				sdram_controller_0_wire_dq        : inout std_logic_vector(15 downto 0) := (others => 'X'); -- dq
+				sdram_controller_0_wire_dqm       : out   std_logic_vector(1 downto 0);                     -- dqm
+				sdram_controller_0_wire_ras_n     : out   std_logic;                                        -- ras_n
+				sdram_controller_0_wire_we_n      : out   std_logic                                         -- we_n
+			  );
     end component soc_system;
 
 begin
@@ -349,29 +338,17 @@ begin
         hps_0_io_hps_io_gpio_inst_GPIO54         => HPS_KEY_N,
         hps_0_io_hps_io_gpio_inst_GPIO61         => HPS_GSENSOR_INT,
         pll_0_sdram_clk                          => DRAM_CLK,
-        reset_reset_n                            => KEY_N(0),
-        sdram_controller_0_wire_addr             => DRAM_ADDR,
-        sdram_controller_0_wire_ba               => DRAM_BA,
-        sdram_controller_0_wire_cas_n            => DRAM_CAS_N,
-        sdram_controller_0_wire_cke              => DRAM_CKE,
-        sdram_controller_0_wire_cs_n             => DRAM_CS_N,
-        sdram_controller_0_wire_dq               => DRAM_DQ,
-        sdram_controller_0_wire_dqm(1)           => DRAM_UDQM,
-        sdram_controller_0_wire_dqm(0)           => DRAM_LDQM,
-        sdram_controller_0_wire_ras_n            => DRAM_RAS_N,
-        sdram_controller_0_wire_we_n             => DRAM_WE_N,
-        nios_leds_external_connection_export     => LEDR(3 downto 0),
-        hps_fpga_leds_external_connection_export => LEDR(7 downto 4),
-		  camera_component_0_conduit_end_buffer_saved   => open,   --    camera_component_0_conduit_end.buffer_saved
-		  camera_component_0_clock_sink_1_clk     => CLOCK_50,     --                                  .clk_camera
-		  camera_component_0_conduit_end_data_camera    => GPIO_1_D5M_D,    --                                  .data_camera
-	     camera_component_0_conduit_end_debug          => open,          --                                  .debug
-		  camera_component_0_conduit_end_display_buffer => open, --                                  .display_buffer
-	     camera_component_0_conduit_end_fval           => GPIO_1_D5M_FVAL,           --                                  .fval
-	     camera_component_0_conduit_end_lval           => GPIO_1_D5M_LVAL,            --                                  .lval
-		  i2c_0_conduit_end_scl                         =>  GPIO_1(24),                         --                 i2c_0_conduit_end.scl
-		  i2c_0_conduit_end_sda                         =>  GPIO_1(23)                          --                                  .sda
-		  
+			sdram_controller_0_wire_addr => DRAM_ADDR,
+			sdram_controller_0_wire_ba => DRAM_BA,
+			sdram_controller_0_wire_cas_n => DRAM_CAS_N,
+			sdram_controller_0_wire_cke => DRAM_CKE,
+			sdram_controller_0_wire_cs_n => DRAM_CS_N,
+			sdram_controller_0_wire_dq => DRAM_DQ,
+			sdram_controller_0_wire_dqm(1) => DRAM_UDQM,
+			sdram_controller_0_wire_dqm(0) => DRAM_LDQM,
+			sdram_controller_0_wire_ras_n => DRAM_RAS_N,
+			sdram_controller_0_wire_we_n => DRAM_WE_N,
+        reset_reset_n                            => KEY_N(0)
     );
 	 GPIO_1(0)<=GPIO_1_D5M_PIXCLK;
 	 GPIO_1(1)<=GPIO_1_D5M_D(11);
@@ -394,5 +371,5 @@ begin
 	 GPIO_1(22)<=GPIO_1_D5M_FVAL;
 	 GPIO_1_D5M_RESET_N<=KEY_N(0);
 	 GPIO_1_D5M_TRIGGER<=not(KEY_N(1));
-	 LEDR(9 downto 8)<=SW(9 downto 8);
+	 LEDR(9 downto 0)<=SW(9 downto 0);
 end;

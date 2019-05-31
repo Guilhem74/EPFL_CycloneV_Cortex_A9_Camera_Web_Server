@@ -39,7 +39,7 @@ void   *h2f_lw_axi_master     = NULL;
 size_t h2f_lw_axi_master_span = ALT_LWFPGASLVS_UB_ADDR - ALT_LWFPGASLVS_LB_ADDR + 1;
 size_t h2f_lw_axi_master_ofst = ALT_LWFPGASLVS_OFST;
 
-void *fpga_leds = NULL;
+void *Avalon_Bus_Address_Span_Expender = NULL;
 
 void open_physical_memory_device();
 void close_physical_memory_device();

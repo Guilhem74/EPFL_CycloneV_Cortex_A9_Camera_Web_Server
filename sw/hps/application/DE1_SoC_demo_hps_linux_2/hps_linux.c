@@ -15,7 +15,7 @@
 #include "socal/hps.h"
 #include "socal/socal.h"
 #include "../hps_soc_system.h"
-
+ void Extract_Colors(int16_t Data,int* Storage);
 void open_physical_memory_device() {
     // We need to access the system's physical memory so we can map it to user
     // space. We will use the /dev/mem file to do this. /dev/mem is a character
@@ -86,7 +86,7 @@ void mmap_fpga_peripherals() {
         exit(EXIT_FAILURE);
     }
 
-    fpga_leds = h2f_lw_axi_master + HPS_FPGA_LEDS_BASE;
+    Avalon_Bus_Address_Span_Expender = h2f_lw_axi_master;
 }
 
 void munmap_fpga_peripherals() {
@@ -98,7 +98,7 @@ void munmap_fpga_peripherals() {
     }
 
     h2f_lw_axi_master = NULL;
-    fpga_leds         = NULL;
+    Avalon_Bus_Address_Span_Expender         = NULL;
 }
 
 void mmap_peripherals() {
@@ -122,7 +122,7 @@ void setup_hps_gpio() {
 
 void setup_fpga_leds() {
     // Switch on first LED only
-    alt_write_word(fpga_leds, 0x1);
+    alt_write_word(Avalon_Bus_Address_Span_Expender, 0x1);
 }
 
 void handle_hps_led() {
@@ -144,7 +144,7 @@ void handle_hps_led() {
 }
 
 void handle_fpga_leds() {
-    uint32_t leds_mask = alt_read_word(fpga_leds);
+    uint32_t leds_mask = alt_read_hword(Avalon_Bus_Address_Span_Expender);
 
     if (leds_mask != (0x01 << (HPS_FPGA_LEDS_DATA_WIDTH - 1))) {
         // rotate leds
@@ -154,23 +154,86 @@ void handle_fpga_leds() {
         leds_mask = 0x1;
     }
 
-    alt_write_word(fpga_leds, leds_mask);
+    alt_write_word(Avalon_Bus_Address_Span_Expender, leds_mask);
 }
+void Convert_Pixels(int32_t Data,int* Storage)
+ {
+ 	Extract_Colors(Data&0xFFFF,Storage);
+ 	Extract_Colors((Data&0xFFFF0000)>>16,Storage+3);
 
+ }
+ void Extract_Colors(int16_t Data,int* Storage)
+ {
+ 	int Red=0, Blue=0, Green=0;
+ 	Red=(Data & 0xF800)>>11;
+ 	Blue=(Data & 0x001F);
+ 	Green=(Data & 0x07E0)>>5;
+ 	int Color=Red;
+ 	if(Color>32)
+ 		Storage[0]=32;
+ 	else
+ 		Storage[0]=Color;
+ 	Color=Green/2;
+ 	if(Color>32)
+ 		Storage[1]=32;
+ 	else
+ 		Storage[1]=Color;
+ 	Color=Blue;
+ 	if(Color>32)
+ 		Storage[2]=32;
+ 	else
+ 		Storage[2]=Color;
+ 	return ;
+ }
+void Capture_Image_Computer(int Address, int Frame)
+{
+	char filename[80];
+	sprintf(filename, "/var/www/html/image%d.ppm",Frame);
+		FILE *foutput = fopen(filename, "w");
+		if (foutput) {
+			/* Use fprintf function to write to file through file pointer */
+			fprintf(foutput, "P3\n320 240\n32\n");
+			printf("Good: open \"%s\" for writing\n", filename);
+			//
+			int Pixels[6];
+			int i=0,j=0;
+			for ( i=0;i<240;i++)
+			{
+				for( j=0;j<160;j++)
+				{
+					int32_t Data_Memory_Case=alt_read_word(Address+ i*160*4+j*4+160*240*4*Frame);
+					Convert_Pixels(Data_Memory_Case,Pixels);
+					//printf( "%3d %3d %3d %3d %3d %3d ",Pixels[0,Pixels[1],Pixels[2],Pixels[3],Pixels[4],Pixels[5]);
+
+					fprintf(foutput, "%3d %3d %3d %3d %3d %3d ",Pixels[0],Pixels[1],Pixels[2],Pixels[3],Pixels[4],Pixels[5]);
+
+				}
+				//printf( "\n");
+				printf( "%3d %3d %3d %3d %3d %3d \r\n",Pixels[0],Pixels[1],Pixels[2],Pixels[3],Pixels[4],Pixels[5]);
+
+				fprintf(foutput, "\r\n");
+
+			}
+			fclose(foutput);
+		    system("pnmtopng /var/www/html/image0.ppm > /var/www/html/image.png");
+		}
+		else
+		{
+			printf("Error: could not open \"%s\" for writing\n", filename);
+
+		}
+}
 int main() {
     printf("DE1-SoC linux demo\n");
 
     open_physical_memory_device();
     mmap_peripherals();
 
-    setup_hps_gpio();
-    setup_fpga_leds();
-
-    while (true) {
-        handle_hps_led();
-        handle_fpga_leds();
-        usleep(ALT_MICROSECS_IN_A_SEC / 10);
-    }
+    //setup_hps_gpio();
+    //setup_fpga_leds();
+    int i=0;
+    Capture_Image_Computer(Avalon_Bus_Address_Span_Expender,0);
+    while(1);
 
     munmap_peripherals();
     close_physical_memory_device();
