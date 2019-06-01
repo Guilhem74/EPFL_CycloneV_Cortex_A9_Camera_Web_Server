@@ -260,7 +260,14 @@ architecture rtl of DE1_SoC_top_level is
 				sdram_controller_0_wire_ras_n     : out   std_logic;                                        -- ras_n
 				sdram_controller_0_wire_we_n      : out   std_logic;                                         -- we_n
 				i2c_0_conduit_end_scl             : inout std_logic                     := 'X';             -- scl
-				i2c_0_conduit_end_sda             : inout std_logic                     := 'X'              -- sda
+				i2c_0_conduit_end_sda             : inout std_logic                     := 'X';              -- sda
+				camera_module_0_conduit_end_buffer_saved   : out   std_logic_vector(1 downto 0);                     -- buffer_saved
+				camera_module_0_conduit_end_data_camera    : in    std_logic_vector(11 downto 0) := (others => 'X'); -- data_camera
+				camera_module_0_conduit_end_debug          : out   std_logic_vector(31 downto 0);                    -- debug
+				camera_module_0_conduit_end_display_buffer : in    std_logic_vector(1 downto 0)  := (others => 'X'); -- display_buffer
+				camera_module_0_conduit_end_fval           : in    std_logic                     := 'X';             -- fval
+				camera_module_0_conduit_end_lval           : in    std_logic                     := 'X';             -- lval
+				camera_module_0_clock_sink_clk             : in    std_logic                     := 'X'              -- clk
 			  );
     end component soc_system;
 
@@ -352,7 +359,14 @@ begin
 			sdram_controller_0_wire_we_n => DRAM_WE_N,
 			i2c_0_conduit_end_scl             => GPIO_1(24),             --       i2c_0_conduit_end.scl
 			i2c_0_conduit_end_sda             => GPIO_1(23),              --                        .sda
-        reset_reset_n                            => KEY_N(0)
+        reset_reset_n                            => KEY_N(0),
+		  	camera_module_0_conduit_end_buffer_saved   => LEDR(2 downto 0),   -- camera_module_0_conduit_end.buffer_saved
+			camera_module_0_conduit_end_data_camera    => GPIO_1_D5M_D(11 downto 0) ,    --                            .data_camera
+			camera_module_0_conduit_end_debug          => open,          --                            .debug
+			camera_module_0_conduit_end_display_buffer => SW(2 downto 0), --                            .display_buffer
+			camera_module_0_conduit_end_fval           => GPIO_1_D5M_FVAL,           --                            .fval
+			camera_module_0_conduit_end_lval           => GPIO_1_D5M_LVAL,           --                            .lval
+			camera_module_0_clock_sink_clk             => GPIO_1_D5M_PIXCLK              --  camera_module_0_clock_sink.clk
     );
 	 GPIO_1(0)<=GPIO_1_D5M_PIXCLK;
 	 GPIO_1(1)<=GPIO_1_D5M_D(11);
@@ -375,5 +389,5 @@ begin
 	 GPIO_1(22)<=GPIO_1_D5M_FVAL;
 	 GPIO_1_D5M_RESET_N<=KEY_N(0);
 	 GPIO_1_D5M_TRIGGER<=not(KEY_N(1));
-	 LEDR(9 downto 0)<=SW(9 downto 0);
+	 LEDR(9 downto 4)<=SW(9 downto 4);
 end;
