@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>31-May-2019 19:16:42</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1559323002584</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>01-Jun-2019 16:03:09</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1559397790115</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>C:\Users\Guilhem\Desktop\EPFL_CycloneV\hw\quartus\software\Triple_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>..\..\soc_system.sopcinfo</SopcDesignFile>
@@ -915,6 +915,12 @@
                 <addressRange>0x04041000 - 0x04041007</addressRange>
                 <addressSpan>8</addressSpan>
                 <attributes>printable</attributes>
+        </MemoryMap>
+        <MemoryMap>
+                <slaveDescriptor>I2c_0</slaveDescriptor>
+                <addressRange>0x04041008 - 0x0404100B</addressRange>
+                <addressSpan>4</addressSpan>
+                <attributes/>
         </MemoryMap>
         <LinkerSection>
                 <sectionName>.text</sectionName>

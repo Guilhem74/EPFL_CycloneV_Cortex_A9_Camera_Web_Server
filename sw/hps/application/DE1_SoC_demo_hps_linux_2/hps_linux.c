@@ -228,7 +228,6 @@ int main() {
 
     open_physical_memory_device();
     mmap_peripherals();
-
     //setup_hps_gpio();
     //setup_fpga_leds();
     int i=0;

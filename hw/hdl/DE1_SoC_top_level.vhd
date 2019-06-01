@@ -258,7 +258,9 @@ architecture rtl of DE1_SoC_top_level is
 				sdram_controller_0_wire_dq        : inout std_logic_vector(15 downto 0) := (others => 'X'); -- dq
 				sdram_controller_0_wire_dqm       : out   std_logic_vector(1 downto 0);                     -- dqm
 				sdram_controller_0_wire_ras_n     : out   std_logic;                                        -- ras_n
-				sdram_controller_0_wire_we_n      : out   std_logic                                         -- we_n
+				sdram_controller_0_wire_we_n      : out   std_logic;                                         -- we_n
+				i2c_0_conduit_end_scl             : inout std_logic                     := 'X';             -- scl
+				i2c_0_conduit_end_sda             : inout std_logic                     := 'X'              -- sda
 			  );
     end component soc_system;
 
@@ -348,6 +350,8 @@ begin
 			sdram_controller_0_wire_dqm(0) => DRAM_LDQM,
 			sdram_controller_0_wire_ras_n => DRAM_RAS_N,
 			sdram_controller_0_wire_we_n => DRAM_WE_N,
+			i2c_0_conduit_end_scl             => GPIO_1(24),             --       i2c_0_conduit_end.scl
+			i2c_0_conduit_end_sda             => GPIO_1(23),              --                        .sda
         reset_reset_n                            => KEY_N(0)
     );
 	 GPIO_1(0)<=GPIO_1_D5M_PIXCLK;

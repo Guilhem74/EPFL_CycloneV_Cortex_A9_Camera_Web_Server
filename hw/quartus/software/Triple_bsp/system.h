@@ -4,7 +4,7 @@
  * Machine generated for CPU 'nios2_gen2_0' in SOPC Builder design 'soc_system'
  * SOPC Builder design path: ../../soc_system.sopcinfo
  *
- * Generated: Fri May 31 19:16:43 CEST 2019
+ * Generated: Sat Jun 01 16:03:11 CEST 2019
  */
 
 /*
@@ -145,6 +145,21 @@
 #define __ALTERA_AVALON_NEW_SDRAM_CONTROLLER
 #define __ALTERA_AVALON_ONCHIP_MEMORY2
 #define __ALTERA_NIOS2_GEN2
+#define __I2C
+
+
+/*
+ * I2c_0 configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_I2c_0 I2c
+#define I2C_0_BASE 0x4041008
+#define I2C_0_IRQ -1
+#define I2C_0_IRQ_INTERRUPT_CONTROLLER_ID -1
+#define I2C_0_NAME "/dev/I2c_0"
+#define I2C_0_SPAN 4
+#define I2C_0_TYPE "I2c"
 
 
 /*
