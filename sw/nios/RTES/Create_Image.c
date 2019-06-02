@@ -23,9 +23,9 @@ void Partial_Image(int Start_Address, int Length, int Color) // Function to disp
 	volatile int i;
 	volatile int Verif;
 
-	for (i = Start_Address; i < Length; i += 2) {
-		IOWR_16DIRECT(SDRAM_CONTROLLER_BASE, i, Color);
-		Verif = IORD_16DIRECT(SDRAM_CONTROLLER_BASE, i);
+	for (i = 0; i <= Length; i += 2) {
+		IOWR_16DIRECT(Start_Address, i, Color);
+		Verif = IORD_16DIRECT(Start_Address, i);
 		if (Verif != Color) {
 			printf("Error: Data read does not corresponds to data written !\n");
 		}
@@ -42,7 +42,7 @@ void RGB_Flag(int Start_Address, int Length) // Function to display RGB colors.
 
 	volatile int Verif;
 
-	for (i = 0; i < Length; i += 2) {
+	for (i = 0; i <= Length; i += 2) {
 		if ( i <= Length/3) {
 			IOWR_16DIRECT(Start_Address, i, RED);
 			Verif = IORD_16DIRECT(Start_Address, i);

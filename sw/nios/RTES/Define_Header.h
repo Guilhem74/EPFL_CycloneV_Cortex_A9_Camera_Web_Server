@@ -29,6 +29,7 @@
 #define TEST_COLOR_2        0b0000001111110101 // Should return 21.
 
 // Create_Image.c
+# define NB_PIXEL	76800
 	//#define RED		-> Already defined.
 	//#define BLUE 		-> Already defined.
 	//#define GREEN 	-> Already defined.

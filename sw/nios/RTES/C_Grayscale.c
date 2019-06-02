@@ -41,8 +41,8 @@ void C_Grayscale_Table(uint16_t *Address, uint32_t Length_Address)
 		Data_Read  = IORD_16DIRECT(Address, i*2);
 
 		// To avoid that the value gets rounded to 0, the order of calculus must be correctly set.
-		R_Color = (float) (((255 * (Data_Read & R_Mask)) / 31) * 0.2126);
-		G_Color = (float) (((255 * (Data_Read & G_Mask)) / 63) * 0.7152);
+		R_Color = (float) (((255 * ((Data_Read & R_Mask) >> 11)) / 31) * 0.2126);
+		G_Color = (float) (((255 * ((Data_Read & G_Mask) >> 5)) / 63) * 0.7152);
 		B_Color = (float) (((255 * (Data_Read & B_Mask)) / 31) * 0.0722);
 
 		Data_Write = (int) R_Color + G_Color + B_Color;
@@ -76,8 +76,8 @@ void C_Grayscale_Image(int Address, int Length_Address)
 		Data_Read  = IORD_16DIRECT(Address, i*2);
 
 		// To avoid that the value gets rounded to 0, the order of calculus must be correctly set.
-		R_Color = (float) (((255 * (Data_Read & R_Mask)) / 31) * 0.2126);
-		G_Color = (float) (((255 * (Data_Read & G_Mask)) / 63) * 0.7152);
+		R_Color = (float) (((255 * ((Data_Read & R_Mask) >> 11)) / 31) * 0.2126);
+		G_Color = (float) (((255 * ((Data_Read & G_Mask) >> 5)) / 63) * 0.7152);
 		B_Color = (float) (((255 * (Data_Read & B_Mask)) / 31) * 0.0722);
 
 		Data_Write = (int) R_Color + G_Color + B_Color;

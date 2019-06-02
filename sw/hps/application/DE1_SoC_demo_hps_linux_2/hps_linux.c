@@ -162,6 +162,16 @@ void Convert_Pixels(int32_t Data,int* Storage)
  	Extract_Colors((Data&0xFFFF0000)>>16,Storage+3);
 
  }
+void Convert_Pixels_Gray(int32_t Data,int* Storage)
+ {
+	Storage[0]=Data&0xFFFF;
+	Storage[1]=Data&0xFFFF;
+	Storage[2]=Data&0xFFFF;
+	Storage[3]=(Data&0xFFFF0000)>>16;
+	Storage[4]=(Data&0xFFFF0000)>>16;
+	Storage[5]=(Data&0xFFFF0000)>>16;
+
+ }
  void Extract_Colors(int16_t Data,int* Storage)
  {
  	int Red=0, Blue=0, Green=0;
@@ -188,7 +198,7 @@ void Convert_Pixels(int32_t Data,int* Storage)
 void Capture_Image_Computer(int Address, int Frame)
 {
 	char filename[80];
-	sprintf(filename, "/var/www/html/image%d.ppm",Frame);
+	sprintf(filename, "/var/www/html/image0.ppm",Frame);
 		FILE *foutput = fopen(filename, "w");
 		if (foutput) {
 			/* Use fprintf function to write to file through file pointer */
@@ -223,6 +233,44 @@ void Capture_Image_Computer(int Address, int Frame)
 
 		}
 }
+void Capture_Image_Computer_Gray(int Address, int Frame)
+{
+	char filename[80];
+	sprintf(filename, "/var/www/html/image0_gray.ppm",Frame);
+		FILE *foutput = fopen(filename, "w");
+		if (foutput) {
+			/* Use fprintf function to write to file through file pointer */
+			fprintf(foutput, "P3\n320 240\n255\n");
+			printf("Good: open \"%s\" for writing\n", filename);
+			//
+			int Pixels[6];
+			int i=0,j=0;
+			for ( i=0;i<240;i++)
+			{
+				for( j=0;j<160;j++)
+				{
+					int32_t Data_Memory_Case=alt_read_word(Address+ i*160*4+j*4+160*240*4*Frame);
+					Convert_Pixels_Gray(Data_Memory_Case,Pixels);
+					//printf( "%3d %3d %3d %3d %3d %3d ",Pixels[0,Pixels[1],Pixels[2],Pixels[3],Pixels[4],Pixels[5]);
+
+					fprintf(foutput, "%3d %3d %3d %3d %3d %3d ",Pixels[0],Pixels[1],Pixels[2],Pixels[3],Pixels[4],Pixels[5]);
+
+				}
+				//printf( "\n");
+				//printf( "%3d %3d %3d %3d %3d %3d \r\n",Pixels[0],Pixels[1],Pixels[2],Pixels[3],Pixels[4],Pixels[5]);
+
+				fprintf(foutput, "\r\n");
+
+			}
+			fclose(foutput);
+		    system("pnmtopng /var/www/html/image0_gray.ppm > /var/www/html/image_gray.png");
+		}
+		else
+		{
+			printf("Error: could not open \"%s\" for writing\n", filename);
+
+		}
+}
 int main() {
     printf("DE1-SoC linux demo\n");
 
@@ -232,7 +280,9 @@ int main() {
     //setup_fpga_leds();
     int i=0;
     while(1)
-    	{    Capture_Image_Computer(Avalon_Bus_Address_Span_Expender,0);
+    	{
+    	Capture_Image_Computer(Avalon_Bus_Address_Span_Expender,1);
+    	Capture_Image_Computer_Gray(Avalon_Bus_Address_Span_Expender,0);
     		printf("Done\r\n");
     	};
 

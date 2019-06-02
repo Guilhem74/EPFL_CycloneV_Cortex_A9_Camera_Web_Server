@@ -17,6 +17,7 @@
 // Accelerator_Grayscale.c
 void Test_Accelerator_Grayscale_Table(uint16_t *, uint32_t);
 void Accelerator_Grayscale_Table(uint16_t *, uint32_t);
+void Test_Accelerator_Grayscale_Image(int, int);
 void Accelerator_Grayscale_Image(int, int);
 
 // C_Grayscale.c
