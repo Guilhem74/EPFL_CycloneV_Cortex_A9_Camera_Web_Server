@@ -106,8 +106,8 @@ int main()
  printf("Beginning of the main !\n");
   Camera_Acquisition_Module_Stop();
 	delay(5000);
-	RGB_Flag(SDRAM_CONTROLLER_BASE, (76800-1)*2);
-	RGB_Flag(SDRAM_CONTROLLER_BASE+((76800-1)*2), (76800-1)*2);
+	Gray_Scale(SDRAM_CONTROLLER_BASE);
+	Gray_Scale(SDRAM_CONTROLLER_BASE+((76800-1)*2));
 	//Partial_Image(SDRAM_CONTROLLER_BASE, (76800-1)*2,BLUE);
 	//Partial_Image(SDRAM_CONTROLLER_BASE+((76800-1)*2), (76800-1)*2,BLUE);
 	//Image_Grayscale(SDRAM_CONTROLLER_BASE,(10-1)*2);

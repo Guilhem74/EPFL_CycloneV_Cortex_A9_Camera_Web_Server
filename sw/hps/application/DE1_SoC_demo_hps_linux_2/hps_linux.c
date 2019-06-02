@@ -7,7 +7,6 @@
 #include <string.h>
 #include <sys/mman.h>
 #include <unistd.h>
-
 #include "alt_generalpurpose_io.h"
 #include "hps_linux.h"
 #include "hwlib.h"
@@ -271,6 +270,38 @@ void Capture_Image_Computer_Gray(int Address, int Frame)
 
 		}
 }
+void C_Grayscale_Image(int Address, int Length_Address)
+{
+	/* Parameters:
+	 * uint16_t *Address       : The address of the first pixel data in the memory.
+	 * uint32_t Length_Address : The length of the addresses (or (n_pixels-1)*2) in byte.
+	 */
+
+	uint16_t Data_Read  = 0x0000;
+	uint16_t Data_Write = 0x0000;
+
+	uint16_t R_Mask = 0b1111100000000000;
+	float R_Color = 0;
+
+	uint16_t G_Mask = 0b0000011111100000;
+	float G_Color = 0;
+
+	uint16_t B_Mask = 0b0000000000011111;
+	float B_Color = 0;
+	int i=0;
+	for ( i = 0; i <= (Length_Address/2); i ++) {
+		Data_Read  = alt_read_hword(Address+ i*2);
+
+		// To avoid that the value gets rounded to 0, the order of calculus must be correctly set.
+		R_Color = (float) (((255 * ((Data_Read & R_Mask) >> 11)) / 31) * 0.2126);
+		G_Color = (float) (((255 * ((Data_Read & G_Mask) >> 5)) / 63) * 0.7152);
+		B_Color = (float) (((255 * (Data_Read & B_Mask)) / 31) * 0.0722);
+
+		Data_Write = (int) R_Color + G_Color + B_Color;
+
+		alt_write_hword(Address+ i*2, Data_Write);
+	}
+}
 int main() {
     printf("DE1-SoC linux demo\n");
 
@@ -278,13 +309,21 @@ int main() {
     mmap_peripherals();
     //setup_hps_gpio();
     //setup_fpga_leds();
+
+
     int i=0;
-    while(1)
-    	{
+
+    	//printf("Start\r\n");
+    	//int j=system("echo $(($(date +%s%N)/1000))");
+    	//C_Grayscale_Image(Avalon_Bus_Address_Span_Expender,(100-1)*2);
+    	//system("echo $(($(date +%s%N)/1000))");
+    	//printf("Grayscale Done\r\n");
+
     	Capture_Image_Computer(Avalon_Bus_Address_Span_Expender,1);
+    	//system("echo $(($(date +%s%N)/1000))");
     	Capture_Image_Computer_Gray(Avalon_Bus_Address_Span_Expender,0);
-    		printf("Done\r\n");
-    	};
+    	//system("echo $(($(date +%s%N)/1000))");
+    	//printf("Done %d\r\n",j);
 
     munmap_peripherals();
     close_physical_memory_device();
