@@ -4,7 +4,7 @@
  * Machine generated for CPU 'nios2_gen2_0' in SOPC Builder design 'soc_system'
  * SOPC Builder design path: ../../soc_system.sopcinfo
  *
- * Generated: Sat Jun 01 16:03:11 CEST 2019
+ * Generated: Sat Jun 01 20:22:53 CEST 2019
  */
 
 /*
@@ -137,6 +137,20 @@
 
 
 /*
+ * Camera_Module_0 configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_Camera_Module_0 Camera_Module
+#define CAMERA_MODULE_0_BASE 0x4041000
+#define CAMERA_MODULE_0_IRQ -1
+#define CAMERA_MODULE_0_IRQ_INTERRUPT_CONTROLLER_ID -1
+#define CAMERA_MODULE_0_NAME "/dev/Camera_Module_0"
+#define CAMERA_MODULE_0_SPAN 32
+#define CAMERA_MODULE_0_TYPE "Camera_Module"
+
+
+/*
  * Define for each module class mastered by the CPU
  *
  */
@@ -145,6 +159,7 @@
 #define __ALTERA_AVALON_NEW_SDRAM_CONTROLLER
 #define __ALTERA_AVALON_ONCHIP_MEMORY2
 #define __ALTERA_NIOS2_GEN2
+#define __CAMERA_MODULE
 #define __I2C
 
 
@@ -154,7 +169,7 @@
  */
 
 #define ALT_MODULE_CLASS_I2c_0 I2c
-#define I2C_0_BASE 0x4041008
+#define I2C_0_BASE 0x4041028
 #define I2C_0_IRQ -1
 #define I2C_0_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define I2C_0_NAME "/dev/I2c_0"
@@ -178,24 +193,32 @@
 #define ALT_NUM_INTERNAL_INTERRUPT_CONTROLLERS 1
 #define ALT_NUM_INTERRUPT_CONTROLLERS 1
 #define ALT_STDERR "/dev/jtag_uart_0"
-#define ALT_STDERR_BASE 0x4041000
+#define ALT_STDERR_BASE 0x4041020
 #define ALT_STDERR_DEV jtag_uart_0
 #define ALT_STDERR_IS_JTAG_UART
 #define ALT_STDERR_PRESENT
 #define ALT_STDERR_TYPE "altera_avalon_jtag_uart"
 #define ALT_STDIN "/dev/jtag_uart_0"
-#define ALT_STDIN_BASE 0x4041000
+#define ALT_STDIN_BASE 0x4041020
 #define ALT_STDIN_DEV jtag_uart_0
 #define ALT_STDIN_IS_JTAG_UART
 #define ALT_STDIN_PRESENT
 #define ALT_STDIN_TYPE "altera_avalon_jtag_uart"
 #define ALT_STDOUT "/dev/jtag_uart_0"
-#define ALT_STDOUT_BASE 0x4041000
+#define ALT_STDOUT_BASE 0x4041020
 #define ALT_STDOUT_DEV jtag_uart_0
 #define ALT_STDOUT_IS_JTAG_UART
 #define ALT_STDOUT_PRESENT
 #define ALT_STDOUT_TYPE "altera_avalon_jtag_uart"
 #define ALT_SYSTEM_NAME "soc_system"
+
+
+/*
+ * altera_hostfs configuration
+ *
+ */
+
+#define ALTERA_HOSTFS_NAME "/mnt/host"
 
 
 /*
@@ -215,7 +238,7 @@
  */
 
 #define ALT_MODULE_CLASS_jtag_uart_0 altera_avalon_jtag_uart
-#define JTAG_UART_0_BASE 0x4041000
+#define JTAG_UART_0_BASE 0x4041020
 #define JTAG_UART_0_IRQ 0
 #define JTAG_UART_0_IRQ_INTERRUPT_CONTROLLER_ID 0
 #define JTAG_UART_0_NAME "/dev/jtag_uart_0"

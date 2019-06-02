@@ -101,7 +101,17 @@ entity DE1_SoC_top_level is
      -- VGA_VS           : out   std_logic;
 
         -- GPIO_0
-      GPIO_0           : inout std_logic_vector(35 downto 0);
+      --GPIO_0           : inout std_logic_vector(35 downto 1);
+		GPIO_0_CLOCK : in std_logic;
+		GPIO_D    : in   std_logic_vector(11 downto 0);
+		GPIO_D5M_XCLKIN : out std_logic;
+		GPIO_D5M_RESET : out std_logic;
+		GPIO_D5M_TRIGGER : out std_logic;
+		GPIO_D5M_STROBE : in std_logic;
+		GPIO_D5M_LVAL : in std_logic;
+		GPIO_D5M_FVAL : in std_logic;
+		GPIO_0_D5M_SDATA : inout std_logic;
+		GPIO_0_D5M_SCLK : inout std_logic;
 
         -- GPIO_1
       GPIO_1           : inout std_logic_vector(35 downto 0);
@@ -164,16 +174,7 @@ entity DE1_SoC_top_level is
 end entity DE1_SoC_top_level;
 
 architecture rtl of DE1_SoC_top_level is
-	signal     GPIO_1_D5M_D       :  std_logic_vector(11 downto 0);
-   signal     GPIO_1_D5M_FVAL    :  std_logic;
-   signal     GPIO_1_D5M_LVAL    :  std_logic;
-   signal     GPIO_1_D5M_PIXCLK  :  std_logic;
-   signal     GPIO_1_D5M_RESET_N :  std_logic;
-   signal     GPIO_1_D5M_SCLK    :  std_logic;
-   signal     GPIO_1_D5M_SDATA   :  std_logic;
-   signal     GPIO_1_D5M_STROBE  :  std_logic;
-   signal     GPIO_1_D5M_TRIGGER :  std_logic;
-   signal     GPIO_1_D5M_XCLKIN  :  std_logic;
+
     component soc_system is
         port(
             clk_clk                                  : in    std_logic                     := 'X';
@@ -267,7 +268,7 @@ architecture rtl of DE1_SoC_top_level is
 				camera_module_0_conduit_end_display_buffer : in    std_logic_vector(1 downto 0)  := (others => 'X'); -- display_buffer
 				camera_module_0_conduit_end_fval           : in    std_logic                     := 'X';             -- fval
 				camera_module_0_conduit_end_lval           : in    std_logic                     := 'X';             -- lval
-				camera_module_0_clock_sink_clk             : in    std_logic                     := 'X'              -- clk
+				camera_module_0_clock_sink_1_clk             : in    std_logic                     := 'X'              -- clk
 			  );
     end component soc_system;
 
@@ -357,37 +358,19 @@ begin
 			sdram_controller_0_wire_dqm(0) => DRAM_LDQM,
 			sdram_controller_0_wire_ras_n => DRAM_RAS_N,
 			sdram_controller_0_wire_we_n => DRAM_WE_N,
-			i2c_0_conduit_end_scl             => GPIO_1(24),             --       i2c_0_conduit_end.scl
-			i2c_0_conduit_end_sda             => GPIO_1(23),              --                        .sda
+			i2c_0_conduit_end_scl             => GPIO_0_D5M_SCLK,             --       i2c_0_conduit_end.scl
+			i2c_0_conduit_end_sda             => GPIO_0_D5M_SDATA,              --                        .sda
         reset_reset_n                            => KEY_N(0),
-		  	camera_module_0_conduit_end_buffer_saved   => LEDR(2 downto 0),   -- camera_module_0_conduit_end.buffer_saved
-			camera_module_0_conduit_end_data_camera    => GPIO_1_D5M_D(11 downto 0) ,    --                            .data_camera
+		  	camera_module_0_conduit_end_buffer_saved   => LEDR(1 downto 0),   -- camera_module_0_conduit_end.buffer_saved
+			camera_module_0_conduit_end_data_camera    => GPIO_D ,    --                            .data_camera
 			camera_module_0_conduit_end_debug          => open,          --                            .debug
-			camera_module_0_conduit_end_display_buffer => SW(2 downto 0), --                            .display_buffer
-			camera_module_0_conduit_end_fval           => GPIO_1_D5M_FVAL,           --                            .fval
-			camera_module_0_conduit_end_lval           => GPIO_1_D5M_LVAL,           --                            .lval
-			camera_module_0_clock_sink_clk             => GPIO_1_D5M_PIXCLK              --  camera_module_0_clock_sink.clk
+			camera_module_0_conduit_end_display_buffer => SW(1 downto 0), --                            .display_buffer
+			camera_module_0_conduit_end_fval           => GPIO_D5M_FVAL,           --                            .fval
+			camera_module_0_conduit_end_lval           => GPIO_D5M_LVAL,           --                            .lval
+			camera_module_0_clock_sink_1_clk             => 	 GPIO_0_CLOCK
     );
-	 GPIO_1(0)<=GPIO_1_D5M_PIXCLK;
-	 GPIO_1(1)<=GPIO_1_D5M_D(11);
-	 GPIO_1(3)<=GPIO_1_D5M_D(10);
-	 GPIO_1(4)<=GPIO_1_D5M_D(9);
-	 GPIO_1(5)<=GPIO_1_D5M_D(8);
-	 GPIO_1(6)<=GPIO_1_D5M_D(7);
-	 GPIO_1(7)<=GPIO_1_D5M_D(6);
-	 GPIO_1(8)<=GPIO_1_D5M_D(5);
-	 GPIO_1(9)<=GPIO_1_D5M_D(4);
-	 GPIO_1(10)<=GPIO_1_D5M_D(3);
-	 GPIO_1(11)<=GPIO_1_D5M_D(2);
-	 GPIO_1(12)<=GPIO_1_D5M_D(1);
-	 GPIO_1(13)<=GPIO_1_D5M_D(0);
-	 GPIO_1(16)<=CLOCK_50;
-	 GPIO_1(17)<=GPIO_1_D5M_RESET_N;
-	 GPIO_1(19)<=GPIO_1_D5M_TRIGGER;
-	 GPIO_1(20)<=GPIO_1_D5M_STROBE;
-	 GPIO_1(21)<=GPIO_1_D5M_LVAL;
-	 GPIO_1(22)<=GPIO_1_D5M_FVAL;
-	 GPIO_1_D5M_RESET_N<=KEY_N(0);
-	 GPIO_1_D5M_TRIGGER<=not(KEY_N(1));
+		GPIO_D5M_XCLKIN <=CLOCK_50;
+	 GPIO_D5M_RESET<=KEY_N(0);
+	 GPIO_D5M_TRIGGER<=not(KEY_N(1));
 	 LEDR(9 downto 4)<=SW(9 downto 4);
 end;

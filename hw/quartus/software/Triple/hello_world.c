@@ -26,6 +26,7 @@
 #include <stdint.h>
 #include <stdlib.h>
 #include "Register_Map_Camera.h"
+#include "Camera_function.h"
 
 i2c_dev i2c;
 #define STARTADD		0
@@ -237,7 +238,7 @@ bool trdb_d5m_read(i2c_dev *i2c, uint8_t register_offset, uint16_t *data) {
     }
 }
 
-#define I2C_0_BASE 0x4041008
+#define I2C_0_BASE 0x4041028
 void init_I2C()
 {
 	i2c = i2c_inst((void *) I2C_0_BASE);
@@ -293,9 +294,23 @@ bool Camera_Configuration()
 int main()
 {
   printf("Hello from Nios II!\n");
+  Camera_Acquisition_Module_Stop();
+
   Fill_Memory_RGBG();
   Camera_Configuration();
+  /*Test_Camera_Memory();*/
 
+
+   	delay(5000);
+   	int t=Camera_Acquisition_Module_SETUP_Address_Memory(SDRAM_CONTROLLER_0_BASE);//Address of the HPC, 256 MB Available from it
+   	printf("Address : %d\r\n",t);
+   	t=Camera_Acquisition_Module_SETUP_Length_Frame(76800);//320*240
+   	printf("Length : %d\r\n",t);
+   	Camera_Acquisition_Module_Display_Registers();
+   	t=Camera_Acquisition_Module_Start();//Set a one in the start register
+   	printf("Start : %d\r\n",t);
+   	Camera_Acquisition_Module_Display_Registers();
+   	Capture_Image_Computer(SDRAM_CONTROLLER_0_BASE,0);
 
   while(1);
   return 0;
