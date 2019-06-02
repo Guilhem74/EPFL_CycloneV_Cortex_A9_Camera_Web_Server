@@ -32,47 +32,12 @@
 #include "Define_Header.h"
 #include "Function_Header.h"
 
-void Table_Grayscale()
-{
-	// If the code is to be used on a manually set table:
-	const int size           = 1;
-	uint16_t  Table[size];
-	uint32_t  Length_Address = (size-1) * 2;
-
-	// Performance counter initialization:
-	PERF_RESET(PERFORMANCE_COUNTER_BASE);
-	PERF_START_MEASURING(PERFORMANCE_COUNTER_BASE);
-
-	// Section 1: C_Grayscale
-	for (int j = 0; j < size; j ++) { Table[j] = j; }
-	PERF_BEGIN(PERFORMANCE_COUNTER_BASE, 1);
-	C_Grayscale_Table(Table, Length_Address);
-	PERF_END(PERFORMANCE_COUNTER_BASE, 1);
-
-	// Section 2: Accelerator_Grayscale
-	for (int j = 0; j < size; j ++) { Table[j] = j; }
-	PERF_BEGIN(PERFORMANCE_COUNTER_BASE, 2);
-	Accelerator_Grayscale_Table(Table, Length_Address);
-	PERF_END(PERFORMANCE_COUNTER_BASE, 2);
-
-	// Report of the two section:
-	perf_print_formatted_report((void *)PERFORMANCE_COUNTER_BASE,
-								alt_get_cpu_freq(),
-								2,
-								"C   - Size 1",
-								"DMA - Size 1");
-
-	printf("    \n");
-	printf("Table_Grayscale(): Done !\n");
-}
-
 //------------------------------------------------------------------------------------------------
 
-void Image_Grayscale()
+void Image_Grayscale(int Address, int Length_Address)
 {
 	// If the code is to be used on an image:
-	uint32_t Address        = SDRAM_CONTROLLER_BASE;
-	uint32_t Length_Address = (NB_PIXEL-1)*2;
+
 
 	// Performance counter initialization:
 	PERF_RESET(PERFORMANCE_COUNTER_BASE);
@@ -143,12 +108,12 @@ int main()
 	delay(5000);
 	RGB_Flag(SDRAM_CONTROLLER_BASE, (76800-1)*2);
 	RGB_Flag(SDRAM_CONTROLLER_BASE+((76800-1)*2), (76800-1)*2);
-	Partial_Image(SDRAM_CONTROLLER_BASE, (76800-1)*2,BLUE);
-	Partial_Image(SDRAM_CONTROLLER_BASE+((76800-1)*2), (76800-1)*2,BLUE);
+	//Partial_Image(SDRAM_CONTROLLER_BASE, (76800-1)*2,BLUE);
+	//Partial_Image(SDRAM_CONTROLLER_BASE+((76800-1)*2), (76800-1)*2,BLUE);
+	//Image_Grayscale(SDRAM_CONTROLLER_BASE,(10-1)*2);
+	//C_Grayscale_Image(SDRAM_CONTROLLER_BASE, (76800-1)*2);
 
-	C_Grayscale_Image(SDRAM_CONTROLLER_BASE, (76800-1)*2);
-
-	//Accelerator_Grayscale_Table(SDRAM_CONTROLLER_BASE, (76800-1)*2);
+	Accelerator_Grayscale_Table(SDRAM_CONTROLLER_BASE, (76800-1)*2);
   //Image_Grayscale();
   Camera_Configuration();
   /*Test_Camera_Memory();*/
