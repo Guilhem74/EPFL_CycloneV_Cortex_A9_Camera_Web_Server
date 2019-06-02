@@ -1,4 +1,4 @@
-Core: hps_sdram_p0 - Instance: soc_system_inst|hps_0|hps_io|border|hps_sdram_inst
+Core: hps_sdram_p0 - Instance: soc_system_inst|hps|hps_io|border|hps_sdram_inst
 Path, Setup Margin, Hold Margin
 "Address Command (Slow 1100mV 85C Model)",0.61,0.603
 "Bus Turnaround Time (Slow 1100mV 85C Model)",3.333,--

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file path="PLL_Camera_sim/PLL_Camera.vho" type="VHDL" />
+ <topLevel name="PLL_Camera" />
+ <deviceFamily name="cyclonev" />
+</simPackage>
