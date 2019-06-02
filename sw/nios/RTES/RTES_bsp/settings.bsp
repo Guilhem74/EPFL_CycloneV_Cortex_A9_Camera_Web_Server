@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>02-Jun-2019 16:57:31</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1559487451648</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>Jun 2, 2019 5:33:32 PM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1559489612861</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>C:\Users\Guilhem\Desktop\EPFL_CycloneV\sw\nios\RTES\RTES_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>C:\Users\Guilhem\Desktop\EPFL_CycloneV\hw\quartus\soc_system.sopcinfo</SopcDesignFile>
@@ -946,22 +946,22 @@
         </LinkerSection>
         <LinkerSection>
                 <sectionName>.rodata</sectionName>
-                <regionName>SDRAM_Controller</regionName>
+                <regionName>OnChip_Memory</regionName>
         </LinkerSection>
         <LinkerSection>
                 <sectionName>.rwdata</sectionName>
-                <regionName>SDRAM_Controller</regionName>
+                <regionName>OnChip_Memory</regionName>
         </LinkerSection>
         <LinkerSection>
                 <sectionName>.bss</sectionName>
-                <regionName>SDRAM_Controller</regionName>
+                <regionName>OnChip_Memory</regionName>
         </LinkerSection>
         <LinkerSection>
                 <sectionName>.heap</sectionName>
-                <regionName>SDRAM_Controller</regionName>
+                <regionName>OnChip_Memory</regionName>
         </LinkerSection>
         <LinkerSection>
                 <sectionName>.stack</sectionName>
-                <regionName>SDRAM_Controller</regionName>
+                <regionName>OnChip_Memory</regionName>
         </LinkerSection>
 </sch:Settings>

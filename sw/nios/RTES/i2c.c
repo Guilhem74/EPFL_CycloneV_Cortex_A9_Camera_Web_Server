@@ -13,7 +13,7 @@
 #define I2C_SLEEP_US (5000)
 #define I2C_FREQ              (50000000) /* Clock frequency driving the i2c core: 50 MHz in this example (ADAPT TO YOUR DESIGN) */
 #define TRDB_D5M_I2C_ADDRESS  (0xba)
-#define I2C_0_BASE 0x4041028
+#define I2C_0_BASE 0x4041088
 i2c_dev i2c;
 
 void init_I2C()

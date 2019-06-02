@@ -4,7 +4,7 @@
  * Machine generated for CPU 'Nios' in SOPC Builder design 'soc_system'
  * SOPC Builder design path: C:/Users/Guilhem/Desktop/EPFL_CycloneV/hw/quartus/soc_system.sopcinfo
  *
- * Generated: Sun Jun 02 16:56:42 CEST 2019
+ * Generated: Sun Jun 02 17:33:30 CEST 2019
  */
 
 /*
@@ -80,8 +80,8 @@
 
 #define ALT_EXCEPTIONS_DEVICE ONCHIP_MEMORY
 #define ALT_RESET_DEVICE ONCHIP_MEMORY
-#define ALT_RODATA_DEVICE SDRAM_CONTROLLER
-#define ALT_RWDATA_DEVICE SDRAM_CONTROLLER
+#define ALT_RODATA_DEVICE ONCHIP_MEMORY
+#define ALT_RWDATA_DEVICE ONCHIP_MEMORY
 #define ALT_TEXT_DEVICE ONCHIP_MEMORY
 
 

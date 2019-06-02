@@ -4,7 +4,7 @@
  * Machine generated for CPU 'Nios' in SOPC Builder design 'soc_system'
  * SOPC Builder design path: C:/Users/Guilhem/Desktop/EPFL_CycloneV/hw/quartus/soc_system.sopcinfo
  *
- * Generated: Sun Jun 02 16:56:42 CEST 2019
+ * Generated: Sun Jun 02 17:33:30 CEST 2019
  */
 
 /*
@@ -218,7 +218,7 @@ SECTIONS
      *
      */
 
-    .rodata : AT ( LOADADDR (.text) + SIZEOF (.text) )
+    .rodata LOADADDR (.text) + SIZEOF (.text) : AT ( LOADADDR (.text) + SIZEOF (.text) )
     {
         PROVIDE (__ram_rodata_start = ABSOLUTE(.));
         . = ALIGN(4);
@@ -226,7 +226,7 @@ SECTIONS
         *(.rodata1)
         . = ALIGN(4);
         PROVIDE (__ram_rodata_end = ABSOLUTE(.));
-    } > SDRAM_Controller
+    } > OnChip_Memory
 
     PROVIDE (__flash_rodata_start = LOADADDR(.rodata));
 
@@ -235,9 +235,13 @@ SECTIONS
      * This section's LMA is set to the .text region.
      * crt0 will copy to this section's specified mapped region virtual memory address (VMA)
      *
+     * .rwdata region equals the .text region, and is set to be loaded into .text region.
+     * This requires two copies of .rwdata in the .text region. One read writable at VMA.
+     * and one read-only at LMA. crt0 will copy from LMA to VMA on reset
+     *
      */
 
-    .rwdata : AT ( LOADADDR (.rodata) + SIZEOF (.rodata) )
+    .rwdata LOADADDR (.rodata) + SIZEOF (.rodata) : AT ( LOADADDR (.rodata) + SIZEOF (.rodata)+ SIZEOF (.rwdata) )
     {
         PROVIDE (__ram_rwdata_start = ABSOLUTE(.));
         . = ALIGN(4);
@@ -256,11 +260,18 @@ SECTIONS
         _edata = ABSOLUTE(.);
         PROVIDE (edata = ABSOLUTE(.));
         PROVIDE (__ram_rwdata_end = ABSOLUTE(.));
-    } > SDRAM_Controller
+    } > OnChip_Memory
 
     PROVIDE (__flash_rwdata_start = LOADADDR(.rwdata));
 
-    .bss :
+    /*
+     *
+     * This section's LMA is set to the .text region.
+     * crt0 will copy to this section's specified mapped region virtual memory address (VMA)
+     *
+     */
+
+    .bss LOADADDR (.rwdata) + SIZEOF (.rwdata) : AT ( LOADADDR (.rwdata) + SIZEOF (.rwdata) )
     {
         __bss_start = ABSOLUTE(.);
         PROVIDE (__sbss_start = ABSOLUTE(.));
@@ -280,7 +291,7 @@ SECTIONS
 
         . = ALIGN(4);
         __bss_end = ABSOLUTE(.);
-    } > SDRAM_Controller
+    } > OnChip_Memory
 
     /*
      *
@@ -305,15 +316,12 @@ SECTIONS
      *
      */
 
-    .SDRAM_Controller : AT ( LOADADDR (.rwdata) + SIZEOF (.rwdata) )
+    .SDRAM_Controller : AT ( LOADADDR (.bss) + SIZEOF (.bss) )
     {
         PROVIDE (_alt_partition_SDRAM_Controller_start = ABSOLUTE(.));
         *(.SDRAM_Controller .SDRAM_Controller. SDRAM_Controller.*)
         . = ALIGN(4);
         PROVIDE (_alt_partition_SDRAM_Controller_end = ABSOLUTE(.));
-        _end = ABSOLUTE(.);
-        end = ABSOLUTE(.);
-        __alt_stack_base = ABSOLUTE(.);
     } > SDRAM_Controller
 
     PROVIDE (_alt_partition_SDRAM_Controller_load_addr = LOADADDR(.SDRAM_Controller));
@@ -331,6 +339,9 @@ SECTIONS
         *(.OnChip_Memory .OnChip_Memory. OnChip_Memory.*)
         . = ALIGN(4);
         PROVIDE (_alt_partition_OnChip_Memory_end = ABSOLUTE(.));
+        _end = ABSOLUTE(.);
+        end = ABSOLUTE(.);
+        __alt_stack_base = ABSOLUTE(.);
     } > OnChip_Memory
 
     PROVIDE (_alt_partition_OnChip_Memory_load_addr = LOADADDR(.OnChip_Memory));
@@ -382,7 +393,7 @@ SECTIONS
 /*
  * Don't override this, override the __alt_stack_* symbols instead.
  */
-__alt_data_end = 0x100000;
+__alt_data_end = 0x4040000;
 
 /*
  * The next two symbols define the location of the default stack.  You can
@@ -398,4 +409,4 @@ PROVIDE( __alt_stack_limit   = __alt_stack_base );
  * Override this symbol to put the heap in a different memory.
  */
 PROVIDE( __alt_heap_start    = end );
-PROVIDE( __alt_heap_limit    = 0x100000 );
+PROVIDE( __alt_heap_limit    = 0x4040000 );

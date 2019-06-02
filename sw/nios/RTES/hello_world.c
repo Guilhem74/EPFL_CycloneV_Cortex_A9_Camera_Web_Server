@@ -120,7 +120,7 @@ void Fill_Memory_RGBG(void) // Function to display stripes of different colors.
 
 	volatile int Verif;
 
-		for (i = 0; i <= LENGTHBUFFER; i += 4)
+		for (i = 0; i < LENGTHBUFFER; i += 4)
 		{
 			if ( i< LENGTHBUFFER/4)
 			{
@@ -296,12 +296,14 @@ bool Camera_Configuration()
 }
 int main()
 {
+	delay(5000);
   printf("Hello from Nios II!\n");
  printf("Beginning of the main !\n");
   Camera_Acquisition_Module_Stop();
-
+	delay(5000);
   Fill_Memory_RGBG();
-  C_Grayscale_Table(SDRAM_CONTROLLER_BASE, 6);
+
+  C_Grayscale_Table(SDRAM_CONTROLLER_BASE, 8);
   //Image_Grayscale();
   Camera_Configuration();
   /*Test_Camera_Memory();*/
@@ -318,6 +320,9 @@ int main()
 //   	Camera_Acquisition_Module_Display_Registers();
 //   	Capture_Image_Computer(SDRAM_CONTROLLER_0_BASE,0);
   printf("End of the main !\n");
-  while(1);
+  while(1)
+	  {
+
+	  }
   return 0;
 }
