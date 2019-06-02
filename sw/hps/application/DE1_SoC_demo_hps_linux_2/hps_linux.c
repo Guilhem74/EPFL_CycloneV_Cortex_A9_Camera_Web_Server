@@ -209,7 +209,7 @@ void Capture_Image_Computer(int Address, int Frame)
 
 				}
 				//printf( "\n");
-				printf( "%3d %3d %3d %3d %3d %3d \r\n",Pixels[0],Pixels[1],Pixels[2],Pixels[3],Pixels[4],Pixels[5]);
+				//printf( "%3d %3d %3d %3d %3d %3d \r\n",Pixels[0],Pixels[1],Pixels[2],Pixels[3],Pixels[4],Pixels[5]);
 
 				fprintf(foutput, "\r\n");
 
@@ -231,8 +231,10 @@ int main() {
     //setup_hps_gpio();
     //setup_fpga_leds();
     int i=0;
-    Capture_Image_Computer(Avalon_Bus_Address_Span_Expender,0);
-    while(1);
+    while(1)
+    	{    Capture_Image_Computer(Avalon_Bus_Address_Span_Expender,0);
+    		printf("Done\r\n");
+    	};
 
     munmap_peripherals();
     close_physical_memory_device();
