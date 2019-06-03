@@ -1,3 +1,0 @@
-FP_Function_Multiply_sim/dspba_library_package.vhd
-FP_Function_Multiply_sim/dspba_library.vhd
-FP_Function_Multiply_sim/FP_Function_Multiply.vhd
