@@ -11,7 +11,8 @@ On the FPGA side(Design can be find in the .qsys file) :
   - SDRAM Controller
   - HPS
   - Address span expander to extend the axi bus limited to 26 bits address.
-  - Camera driver 
+  - Camera driver custom-made
+  
 Driver linux is available in sw/hps/application/DE1_SoC_demo_hps_linux_2/
 -> Access to the sdram to read two consecutives images of 320x240 pixels
 
