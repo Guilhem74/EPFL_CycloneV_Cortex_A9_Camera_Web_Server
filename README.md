@@ -24,5 +24,6 @@ For a single processing both are quite equivalent for an image of 320*240px.
 
 Hardware accelerator could be interesting in the parallelisation of the image processing.
 
-Lenna image is stored in the DDR3, Middle image is read from the SDRAM and the right one is also in the SDRAM but has been written by our filter unit
+Lenna image is stored in the DDR3, Middle image is read from the SDRAM and the right one is also in the SDRAM but has been written by our filter unit.
+Result was accessible at the IP address of the board from any web client.
 ![alt text](https://github.com/Guilhem74/EPFL_CycloneV_Cortex_A9_Camera_Web_Server/blob/LightWeight/Results.png?raw=true)
