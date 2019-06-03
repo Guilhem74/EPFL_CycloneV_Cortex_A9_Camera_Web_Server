@@ -4,6 +4,14 @@ EPFL_CycloneV_Cortex_A9_Camera_Web_Server
 - Multimaster system to perform the filtering: Hardware Accelerator, NIOS Processor and ARM Processor. Then compare the performances of the different designs.
 - Displaying the image on a WebServer.
 
+
+On the FPGA side(Design can be find in the .qsys file) :
+  - NIOS II processor for configuration and comparison with normal C treatment
+  - Gray Scale custom-made accelerator in vhdl
+  - SDRAM Controller
+  - HPS
+  - Address span expander to extend the axi bus limited to 26 bits address.
+  - Camera driver 
 Driver linux is available in sw/hps/application/DE1_SoC_demo_hps_linux_2/
 -> Access to the sdram to read two consecutives images of 320x240 pixels
 
